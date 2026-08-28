@@ -2,6 +2,24 @@
 
 > **Public-variant note (added by `tools/make_public_variant.py`, 2026-08-28):** the `pi_name` column documented in the original data dictionary has been REMOVED from this release's master file for personal-data minimisation. `evidence_ref`, `integration_note` and `park_reason` are reduced to URL-only (prose dropped -- this also drops a handful of local Windows filesystem paths that had leaked into `evidence_ref` for some grade-B/C rows). See `README.md` -> "What is included vs withheld" and `PUBLIC_VARIANT_MANIFEST.md` for the full rationale and how to re-join PI identity from the original CORDIS/ERC sources via `grant_id`.
 
+> **Terminology used throughout this file** (defined once here, not re-explained at each mention —
+> the full account is in `METHODOLOGY.md`'s "Pipeline stages and review rounds" box): **Spine** is
+> the deterministic first pass (free HAL/OpenAlex routes only, evidence grades A/B). **Phase C** is
+> the first assisted web-research pass on whatever the Spine pass could not resolve for free
+> (evidence grade C). **Phase D** is a dedicated later pass on components that could not even enter
+> Phase C's protocol, via three named routes: **D1** (PI-identity recovery), **D2** (Synergy
+> co-PI-to-component mapping), **D3** (conflict adjudication between competing candidate labs).
+> **Phase E** is a later pass closing the gap for components that had a lab name but no region: Tier
+> A free/deterministic, Tier B the same web-research protocol as Phase C/D. **"S9a" through "S9e"
+> fix cycles** are five successive, independent hostile-data reviews, run in that lettered order,
+> each re-deriving published numbers from scratch; each is documented by its own numbered/lettered
+> "findings" (e.g. "the S9a review's finding 6"), and a finding's number/letter is unique only
+> **within its own fix cycle**, never a cross-document code. **v1.x.x build labels** are successive
+> dataset versions, one per stage/fix cycle landing in the master — see `VERSION.json`'s own
+> `changelog` for the exact mapping. Script filenames referenced below (e.g.
+> `c08_assemble_master.py`) are this project's own numbered pipeline/integration scripts, named for
+> traceability, not a code the reader needs to decode separately.
+
 Dataset version **1.5.0** · source snapshot **2026-07-24** · run **20260827T142619Z_integration**.
 (This header was stale at 1.2.0 through several prior fix cycles — corrected here, v1.5.0 Residuals
 pass; see `VERSION.json`'s own `changelog` array for the authoritative version history, this file's
@@ -61,6 +79,48 @@ further down). See the `resolution_status` and `park_reason` rows below.
 | `french_component_amount` | float (EUR) | **The amount attributable to this French component.** For any FRENCH funding total, sum this over rows with `resolution_status != 'non_french_at_start'` (the "attributed total") — summing over all 1,562 rows also includes 15 rows (as of Phase E, up from 14) of real, but non-French, money. | v2 (`amount_method`-dependent), with 2 documented corrections layered on top | **As of v1.4.2 (unchanged since v1.4.1)**: sums to €2,704,632,271.93 across all 1,562 rows / €2,678,147,991.31 attributed (non-French excluded) — NOT the original v2 spine total of €2,789,848,388.98 (unaffected by Phase E/S9e, neither of which touches an amount field). Two independent, documented corrections explain the gap: Phase D's AMOUNT RULE (5 components, −€4.5M, see below) and the Synergy line-split (S9a finding 1, then REWRITTEN by the S9c fix cycle to a net −€85.2M vs. the S9a figures — see "Synergy split rewritten" below; the €2,699,058,220.93/€2,674,567,221.31 figures once shown here were the S9a-era, pre-S9c-rewrite totals). |
 | `amount_method` | string | How `french_component_amount` was derived: `ordinary_full_project` (single-host grant, full amount) \| `cordis_exact_host` (CORDIS gives this host's own contribution, or — after the S9c fix cycle — this component is the SOLE claimant of its `starting_host`'s French CORDIS line) \| `cordis_exact_host_pi_unknown` (same, PI attribution to this specific host still uncertain) \| `cordis_fr_total_split_equal` (Synergy/multi-host grant, French total split equally across French components — see Synergy note below) \| `cordis_line_split_equal` (>=2 components of a grant share one CORDIS beneficiary line's `netEcContribution` — the S9c fix cycle rewrote HOW this is detected/split, see "Synergy split rewritten" below) \| `cordis_line_excluded_unresolved` (**new, S9c fix cycle finding C**: this component's `resolution_status` is `unresolved_parked`/`non_french_at_start`, so it is EXCLUDED from its own line's split — `french_component_amount` forced to 0, flag `synergy_split_excluded_unresolved`). | v2 / this run | |
 | `is_synergy` | bool | True for ERC Synergy Grants (multi-PI). | CORDIS | Synergy rows are **included** in the fractional funding lens but **excluded** from the full-claim lens (see Funding rollups below) — multi-PI double-counting via full-claim would be nonsensical. |
+
+### How multi-country (Synergy) grants are counted
+
+An ERC Synergy grant is awarded to several co-Principal Investigators, often at institutions in
+several different countries; CORDIS records the grant's EU contribution as a set of per-organisation
+beneficiary lines, not as one lump sum per PI or per component. This project's counting rule, applied
+consistently and **never** a naive `project_eu_contribution ÷ number_of_components` division:
+
+- `french_component_amount` for a Synergy component is that specific French beneficiary's own CORDIS
+  contribution line, matched by an exact participant-id (`host_pic`). `amount_method` always records
+  which route produced it:
+  - `cordis_exact_host` / `cordis_exact_host_pi_unknown` — this component's own CORDIS beneficiary
+    line, exact-host-id matched. The `_pi_unknown` suffix is a labelled fallback: the host
+    organisation is confirmed, but this specific PI's claim to that host's own line is not yet
+    independently confirmed — a distinct, visible label, never silently upgraded to the confirmed
+    variant.
+  - `cordis_line_split_equal` — an equal split applies **only within one shared CORDIS line**: two or
+    more components sharing the exact same underlying beneficiary line (same host, more than one
+    claiming component) split that one line's amount equally among just those components, never
+    across the whole grant.
+  - `cordis_fr_total_split_equal` — the one disclosed structural exception (see `LIMITATIONS.md` §10
+    / this file's own component-identity note above): a handful of grants pre-merge two co-hosted
+    French beneficiaries into a single row, upstream of this pipeline, before any per-host CORDIS
+    line can be read separately; that row's French total is split equally between the merged hosts.
+    This is the one case that resembles a "total ÷ N" rule, and it is limited to this named, closed
+    category — it is not how the general rule above works.
+  - `cordis_line_excluded_unresolved` — a component whose `resolution_status` is `unresolved_parked`
+    or `non_french_at_start` is excluded from its own line's split; its notional share is forced to
+    zero and flagged (`synergy_split_excluded_unresolved`), rather than silently redistributed onto
+    the remaining claimants.
+- **Unclaimed lines are reported, not invented onto a component.** A French CORDIS beneficiary line
+  that ends up with no component whose evidence supports claiming it is real French CORDIS money,
+  excluded from every total in this dataset. As of this release: 11 such lines across 8 grants,
+  totalling approximately €6.23M, itemised (grant id, organisation, role, amount) in the private
+  working repository's staged output — see `LIMITATIONS.md` §4.
+- **`project_eu_contribution` always holds the FULL grant amount, once per row** — every country and
+  host, never scoped to the French share, and repeated identically on every one of that grant's own
+  components. **Never sum `project_eu_contribution` across the several components of one Synergy
+  grant** (it double-counts by construction); never confuse it with `french_component_amount`. See
+  `FINAL_NUMBERS.md`'s "French share total" vs. "full grant total" for the headline-level consequence
+  of this distinction — the two are computed from different columns, answer different questions, and
+  are never summed together.
 
 ### Resolution status and evidence
 

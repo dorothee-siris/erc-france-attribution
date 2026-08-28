@@ -17,6 +17,23 @@ have).
 
 ---
 
+## Pipeline stages and review rounds — read once, used by name throughout this release
+
+This dataset was built in named stages, and later independent review passes fed fixes back into the
+same master file. Every name below recurs, by name, in this document, `DATA_DICTIONARY.md`, and
+`FINAL_NUMBERS.md` — defined once here rather than re-explained at each mention.
+
+| Name | What it is |
+|---|---|
+| **Spine** | The deterministic first pass: the four free HAL/OpenAlex routes only (§(c)‑2), zero web search, zero LLM tokens. Produces evidence grades A and B. |
+| **Phase C** | The first assisted web-research pass (§(c)‑6), run on whatever the deterministic Spine pass could not resolve for free. Produces evidence grade C. |
+| **Phase D** | A dedicated pass (§(c)‑7) on components that could not even enter Phase C's protocol: PI-identity recovery (route **D1**), Synergy co-PI-to-component mapping (route **D2**), and conflict adjudication between competing candidate labs (route **D3**). |
+| **Phase E** | A later pass (§(c)‑8) targeting components that were resolved — a lab was named — but still lacked a region: **Tier A** re-derives location for free from evidence already on disk; **Tier B** is the same calibrated web-research protocol as Phase C/D, for whatever Tier A could not close. |
+| **"S9a" … "S9e" fix cycles** | Five successive, independent hostile-data reviews, each one re-deriving published numbers from scratch rather than trusting the previous cycle's own claims, run in that lettered order. Each is documented by its own numbered or lettered "findings" list (e.g. "the S9a review's finding 6", "the S9c review's finding B") describing one defect found and the fix that closed it — a finding's number/letter is only ever unique **within its own fix cycle**, not a cross-document code. |
+| **v1.x.x build labels** (e.g. v1.4.0, v1.4.1, v1.4.2, v1.5.0) | Successive dataset versions, each corresponding to one of the stages/fix cycles above landing in the shipped master file. See `VERSION.json`'s own `changelog` array for the exact stage-to-version mapping. |
+
+---
+
 ## (a) Problem and objective
 
 CORDIS, the European Commission's own project database, books the large majority of French ERC
@@ -358,6 +375,16 @@ beneficiary line that ends up with **no claiming component at all** is **reporte
 a component** — it is real money, part of the grant's actual French CORDIS allocation, but is simply
 not attributable to any specific lab/region/university given the evidence on hand (see
 `LIMITATIONS_PUBLIC.md` for the exact scale of this "unclaimed lines" residue).
+
+**How this differs from official ERC country statistics.** The ERC's own dashboard displays each
+Synergy project under every participating host country and publishes no methodology note on how (or
+whether) it splits a Synergy grant's amount between those countries, so an ERC headline country
+figure may effectively count the full grant once per participating country. This dataset instead
+follows the CORDIS per-beneficiary contribution lines, which is a French-share view. Because the two
+answer different questions, both totals are published side by side — the summable French share
+(`french_component_amount`) and the non-summable full-grant total over grants with at least one
+French component (`project_eu_contribution`, once per grant) — and neither should be added to the
+other nor compared 1:1 against an ERC dashboard country figure.
 
 ### 10. Canonicalisation (UAI)
 

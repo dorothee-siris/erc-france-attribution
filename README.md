@@ -40,9 +40,10 @@ _(Extracted verbatim from `deliverable/FINAL_NUMBERS.md`, dataset v1.5.0 -- read
 | Components `unresolved_parked` (genuinely unattributable) | 6 (0.4%) |
 | Evidence grade A (deterministic, ≥2 routes agree) | 457 components / €808.9M |
 | Evidence grade B (deterministic, single route) | 765 components / €1,315.3M |
-| Evidence grade C (assisted/targeted web research, incl. Phase E tier B) | 340 components / €580.4M total (€548.5M on resolved rows) |
+| Evidence grade C (assisted/targeted web research, including the web-research tier of the later location-completion pass) | 340 components / €580.4M total (€548.5M on resolved rows) |
 | Total French component amount (ALL rows, incl. non-French) | €2,704,632,271.93 |
 | **Attributed total (non-French excluded — the headline denominator)** | **€2,678,147,991.31** |
+| Total EU contribution of all grants having ≥1 French component (full grant amounts, one count per grant — see "Two totals, never summed together" below) | **€3,283,708,326.19** (1,480 grants) |
 | — of which on a `located` row (attributed − lab_only − parked) | €2,656,094,861.56 (99.18% of attributed) |
 | — on a `lab_only` row (resolved, no region) | €13,152,676.50 (0.49% of attributed) |
 | — still genuinely unattributed (`unresolved_parked`) | €8,900,453.25 (0.33% of attributed) |
@@ -52,7 +53,24 @@ _(Extracted verbatim from `deliverable/FINAL_NUMBERS.md`, dataset v1.5.0 -- read
 | Region funding leader | Île-de-France, €1,335.7M |
 | University funding leader | Sorbonne Université, €229.7M |
 
-## Headline tiers (unchanged framework from S9c fix cycle finding F; counts updated by Phase E / S9e)
+### Two totals, never summed together
+
+This release publishes two different EUR totals, and they answer two different questions:
+
+- **French share total, €2,678,147,991.31** — the "Attributed total" row above: what France's own
+  research actually earned, summed from `french_component_amount` (see "How multi-country (Synergy)
+  grants are counted" below for exactly how a Synergy grant's French share is computed). This is the
+  right number for any "how much ERC funding came to France" question.
+- **Full grant total, €3,283,708,326.19** — the complete EU contribution (every country, every host)
+  of the 1,480 distinct grants that have at least one French component, summed once per grant from
+  `project_eu_contribution`. This answers "what is the total size of the grants France participates
+  in" — a different, larger question, because a Synergy grant's non-French co-hosts' shares are
+  included here and excluded from the French share total above.
+
+**Never add these two figures, and never substitute one for the other** — the first is a French-money
+question, the second is a grant-scale question that happens to gate on French participation.
+
+## Headline tiers (framework unchanged since the fix cycle that first defined it; counts updated by the location-completion pass and later fix cycles — see `METHODOLOGY_PUBLIC.md`'s stage glossary for exactly which)
 
 | Tier | Definition | Components | EUR (of the attributed total) |
 |---|---|---:|---:|
@@ -104,6 +122,56 @@ requires re-joining PI names back in**, via this dataset's own `grant_id` column
 id) against a fresh CORDIS project export or the CORDIS project page itself
 (`https://cordis.europa.eu/project/id/<grant_id>`). Full instructions:
 `METHODOLOGY_PUBLIC.md` §(g).
+
+## How multi-country (Synergy) grants are counted
+
+An ERC Synergy grant is awarded to several co-Principal Investigators, often at institutions in
+several different countries, and CORDIS itself records the grant's EU contribution as a set of
+per-organisation beneficiary lines — not as one lump sum per PI or per component. This dataset's
+counting rule is applied consistently, and it is never a naive "grant total ÷ number of components"
+division:
+
+- **A French component's `french_component_amount` is that specific French beneficiary's own CORDIS
+  contribution line** — matched by an exact participant-id (`host_pic`), never split evenly across
+  every component of the grant regardless of which host actually claims it. Which route produced the
+  amount is always recorded, verbatim, in `amount_method`:
+  - `cordis_exact_host` / `cordis_exact_host_pi_unknown` — this component's own CORDIS beneficiary
+    line, matched by exact host id. The `_pi_unknown` variant is a labelled fallback: the host
+    organisation is confirmed, but this specific PI's claim to that host's own line is not yet
+    independently confirmed — kept as a distinct, visible label, never silently upgraded.
+  - `cordis_line_split_equal` — an equal split applies **only within one shared CORDIS line**: when
+    two or more components turn out to share the exact same underlying beneficiary line (same host,
+    more than one claiming component), that one line's amount is divided equally among just those
+    components — never across the whole grant.
+  - `cordis_fr_total_split_equal` — a small, disclosed structural exception (see `LIMITATIONS_PUBLIC.md`
+    §10): a handful of grants pre-merge two co-hosted French beneficiaries into one row, upstream of
+    this project's own pipeline, before any per-host CORDIS line can be read separately; that row's
+    French total is split equally between the merged hosts. This is the one case that resembles a
+    "total ÷ N" rule, and it is limited to this named, closed, disclosed category — it is not how the
+    general Synergy rule above works.
+  - `cordis_line_excluded_unresolved` — a component whose own `resolution_status` is
+    `unresolved_parked` or `non_french_at_start` is excluded from its own line's split; its notional
+    share is forced to zero and flagged, rather than silently redistributed onto the remaining
+    claimants.
+- **A French CORDIS beneficiary line with no claiming component is reported, not invented onto a
+  row.** As of this release, 11 such lines across 8 grants — real French CORDIS money, roughly
+  €6.23M combined — have no component whose evidence supports claiming them; they are excluded from
+  every total in this dataset and itemised in the private working repository's staged output (see
+  `LIMITATIONS_PUBLIC.md` §4).
+- **The full grant amount is always kept, once per row, in `project_eu_contribution`** — the WHOLE
+  grant's EU contribution across every country and host, never scoped down to the French share. Never
+  sum this column across the several components of one Synergy grant (it repeats the same value on
+  each of that grant's own rows), and never confuse it with `french_component_amount`. See "Two totals,
+  never summed together" above for the headline-level consequence of this distinction.
+
+**Comparison with official ERC statistics.** The ERC's own dashboard displays each Synergy project
+under every participating host country, and publishes no methodology note on how (or whether) it
+splits such a grant's amount between those countries — so an ERC headline country figure may
+effectively count the full grant once per participating country. The totals in this dataset instead
+follow the CORDIS per-beneficiary contribution lines, which is a French-share view. That is why both
+views are published here — the French-share total and the full-grant total over grants with at least
+one French component — and neither should be summed with the other nor compared 1:1 against an ERC
+dashboard country figure.
 
 ## Quickstart
 

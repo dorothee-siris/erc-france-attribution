@@ -67,6 +67,10 @@ impact) plus 3 lower-severity items. All fixed, deterministically, no web access
 No component added/removed, no amount touched — this is a within-tier correction pass (2 rows
 moved tiers per the "never guess" rule above), not a re-scoping.
 
+**Terminology**: "Phase C/D/E", the "S9a"–"S9e" fix cycles, and the v1.x.x build labels used
+throughout this file are defined once, by name, in `METHODOLOGY_PUBLIC.md`'s "Pipeline stages and
+review rounds" box — read it first if any of those names are unfamiliar.
+
 **Three lenses still apply — never conflate them.**
 1. The **attributed total** (non-`French_at_start` excluded) is the right denominator for any
    French-money question.
@@ -87,9 +91,10 @@ moved tiers per the "never guess" rule above), not a re-scoping.
 | Components `unresolved_parked` (genuinely unattributable) | 6 (0.4%) |
 | Evidence grade A (deterministic, ≥2 routes agree) | 457 components / €808.9M |
 | Evidence grade B (deterministic, single route) | 765 components / €1,315.3M |
-| Evidence grade C (assisted/targeted web research, incl. Phase E tier B) | 340 components / €580.4M total (€548.5M on resolved rows) |
+| Evidence grade C (assisted/targeted web research, including the web-research tier of the location-completion pass, "Phase E") | 340 components / €580.4M total (€548.5M on resolved rows) |
 | Total French component amount (ALL rows, incl. non-French) | €2,704,632,271.93 |
-| **Attributed total (non-French excluded — the headline denominator)** | **€2,678,147,991.31** |
+| **Attributed total (non-French excluded — the headline denominator, the "French share total")** | **€2,678,147,991.31** |
+| Total EU contribution of all grants having ≥1 French component (full grant amounts, one count per grant, computed with `Decimal` — the "full grant total", NOT summable with the French share total above) | **€3,283,708,326.19** (1,480 grants) |
 | — of which on a `located` row (attributed − lab_only − parked) | €2,656,094,861.56 (99.18% of attributed) |
 | — on a `lab_only` row (resolved, no region) | €13,152,676.50 (0.49% of attributed) |
 | — still genuinely unattributed (`unresolved_parked`) | €8,900,453.25 (0.33% of attributed) |
@@ -99,7 +104,7 @@ moved tiers per the "never guess" rule above), not a re-scoping.
 | Region funding leader | Île-de-France, €1,335.7M |
 | University funding leader | Sorbonne Université, €229.7M |
 
-## Headline tiers (unchanged framework from S9c fix cycle finding F; counts updated by Phase E / S9e)
+## Headline tiers (framework unchanged since the S9c fix cycle first defined it, see METHODOLOGY_PUBLIC.md's stage glossary; counts updated by the Phase E location-completion pass and the S9e fix cycle)
 
 | Tier | Definition | Components | EUR (of the attributed total) |
 |---|---|---:|---:|
