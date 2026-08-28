@@ -1,0 +1,25 @@
+{
+  "components": 1562,
+  "auto_accepted": 1222,
+  "resolved_pct": 78.2,
+  "grade_A": 457,
+  "grade_B": 765,
+  "rnsr_resolved": 1063,
+  "region_resolved": 1208,
+  "conflicts": 46,
+  "by_source": {
+    "v1_openalex": 428,
+    "hal_grant": 346,
+    "hal_author": 105,
+    "openalex_author": 103,
+    "v1_cnrs_page": 98,
+    "v1_llm": 80,
+    "v1_piauthor": 56,
+    "openalex_grant": 6
+  },
+  "french_component_total_eur": 2178684944.8849998,
+  "eur_gradeA": 838096169.65,
+  "eur_gradeB": 1340588775.235,
+  "region_unresolved": 168,
+  "model_tokens_used": 0
+}

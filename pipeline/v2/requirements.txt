@@ -1,0 +1,7 @@
+pandas
+pyarrow
+requests
+PyYAML
+python-dotenv
+openpyxl
+pytest

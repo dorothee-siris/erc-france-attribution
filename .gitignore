@@ -1,0 +1,31 @@
+# Secrets — never commit
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Pipeline checkpoint caches (large, regenerable, per-run — not the whitelisted outputs/
+# files this repo deliberately commits; see pipeline/v2/README.md and MANIFEST_REPO.md)
+checkpoints/cache/
+checkpoints/*.parquet
+
+# Any API-response cache directory anywhere in the tree (regenerable, per-run; v1.5.0 policy —
+# never copy cache/ dirs into this repo, quarantine any that appear via a prior pass)
+**/cache/
+
+# JS tooling (Phase D staging scripts reference workflow tooling; never present in this repo, but
+# guard against a future re-copy pulling one in)
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+~$*
+
+# Quarantine convention (never-delete rule): anything moved out of the way instead of deleted
+_TO_DELETE_*/
+BUILD_CHECKPOINT.md

@@ -1,0 +1,15 @@
+# Union of pipeline/v1, pipeline/v2 and integration/ dependencies. Install once at the repo
+# root; every script under pipeline/ and integration/ imports only from this list (plus the
+# Python standard library). See docs/REPRODUCE.md for the full setup + run order.
+pandas
+numpy
+pyarrow
+requests
+PyYAML
+python-dotenv
+openpyxl
+pytest
+# psycopg2-binary: only imported by pipeline/v1/scripts/03a_resolve_scanr.py, a superseded
+# resolver (scanR was dropped early in v1 — see pipeline/v1/README.md "Key findings" #4).
+# Kept so that file still imports cleanly; not needed to reproduce the current master.
+psycopg2-binary

@@ -1,0 +1,460 @@
+raw_name,canonical_name,uai,institution_type,needs_review,note,source_columns
+AVIGNON UNIVERSITE,AVIGNON UNIVERSITE,0840685N,UNIV,False,,universities_at_start
+Acides nucléiques: Régulations naturelles et artificielles,Acides nucléiques: Régulations naturelles et artificielles,,OTHER,False,,tutelles_raw_v2
+AgroParisTech,AgroParisTech,,OTHER,False,,tutelles_raw_v2
+AgroParisTech (Inst Sc et Ind du Vivant et Environnement),AgroParisTech (Inst Sc et Ind du Vivant et Environnement),0753465J,AUT_ETAB,False,,other_etab_tutelles
+Institut des sciences et industries du vivant et de l'environnement,AgroParisTech (Inst Sc et Ind du Vivant et Environnement),0753465J,AUT_ETAB,False,"uai_merged: RNSR UAI 0753465J shared with 'AgroParisTech (Inst Sc et Ind du Vivant et Environnement)' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles
+Air Liquide (France),Air Liquide (France),,OTHER,False,,tutelles_raw_v2
+"Analyse moléculaire, modélisation et imagerie de la maladie cancéreuse","Analyse moléculaire, modélisation et imagerie de la maladie cancéreuse",,OTHER,False,,tutelles_raw_v2
+Arts et Métiers,Arts et Métiers,,OTHER,False,,tutelles_raw_v2
+Assistance Publique - Hôpitaux de Marseille,Assistance Publique - Hôpitaux de Marseille,,HOSP,False,,participants_nontutelle
+Assistance Publique Hôpitaux de Paris,Assistance Publique des Hôpitaux de Paris,,HOSP,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Assistance Publique des Hôpitaux de Paris'",other_etab_tutelles;participants_nontutelle
+Assistance Publique des Hôpitaux de Paris,Assistance Publique des Hôpitaux de Paris,,HOSP,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Assistance Publique des Hôpitaux de Paris'",other_etab_tutelles;participants_nontutelle
+Assistance Publique – Hôpitaux de Paris,Assistance Publique des Hôpitaux de Paris,,HOSP,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Assistance Publique des Hôpitaux de Paris'",tutelles_raw_v2
+BRGM,BRGM,0755363X,EPIC,False,,participants_nontutelle;rto_tutelles
+Biologie Moléculaire Structurale et Processus Infectieux,Biologie Moléculaire Structurale et Processus Infectieux,,OTHER,False,,tutelles_raw_v2
+Biologie cellulaire et Cancer,Biologie cellulaire et Cancer,,OTHER,False,,tutelles_raw_v2
+Biologie du Développement et Cellules Souches,Biologie du Développement et Cellules Souches,,OTHER,False,,tutelles_raw_v2
+Bordeaux Population Health,Bordeaux Population Health,,OTHER,False,,tutelles_raw_v2
+CEA Grenoble,CEA Grenoble,,OTHER,False,,tutelles_raw_v2
+CEA Paris-Saclay,CEA Paris-Saclay,,OTHER,False,,tutelles_raw_v2
+CHRU  RENNES,CHRU  RENNES,,HOSP,False,,participants_nontutelle
+CHU Hôpitaux de Bordeaux,CHU Hôpitaux de Bordeaux,,HOSP,False,,other_etab_tutelles;participants_nontutelle
+CY Cergy Paris Université,CY Cergy Paris Université,0952259P,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Center for Infection and Immunity of Lille,Center for Infection and Immunity of Lille,,OTHER,False,,tutelles_raw_v2
+Centrale Lille Institut,Centrale Lille Institut,0597139P,AUT_ETAB,False,,other_etab_tutelles
+Centrale Marseille,Centrale Marseille,,OTHER,False,,tutelles_raw_v2
+CentraleSupélec,CentraleSupélec,0912341A,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle;tutelles_raw_v2
+Centre Européen de Recherche en Biologie et en Médecine,Centre Européen de Recherche en Biologie et en Médecine,,AUT_ETAB,False,,participants_nontutelle
+Centre Hospitalier Régional de Marseille,Centre Hospitalier Régional de Marseille,,OTHER,False,,participants_nontutelle
+Centre Hospitalier Universitaire Grenoble Alpes,Centre Hospitalier Universitaire Grenoble Alpes,,HOSP,False,,participants_nontutelle
+Centre Hospitalier Universitaire de Grenoble,Centre Hospitalier Universitaire de Grenoble,,OTHER,False,,tutelles_raw_v2
+Centre Hospitalier Universitaire de Lille,Centre Hospitalier Universitaire de Lille,,HOSP,False,,other_etab_tutelles;participants_nontutelle;tutelles_raw_v2
+Centre Inria de Saclay,Centre Inria de Saclay,,OTHER,False,,tutelles_raw_v2
+Centre Interdisciplinaire de Recherche en Biologie,Centre Interdisciplinaire de Recherche en Biologie,,OTHER,False,,tutelles_raw_v2
+Centre Interuniversitaire de Recherche et d’Ingénierie des Matériaux,Centre Interuniversitaire de Recherche et d’Ingénierie des Matériaux,,OTHER,False,,tutelles_raw_v2
+Centre National d'Etude Spatiales,Centre National d'Etude Spatiales,0752743Z,EPIC,False,,participants_nontutelle;rto_tutelles
+Centre national d'études spatiales,Centre National d'Etude Spatiales,0752743Z,EPIC,False,"uai_merged: RNSR UAI 0752743Z shared with 'Centre National d'Etude Spatiales' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",participants_nontutelle
+Centre Pour La Recherche Economique et ses Applications,Centre Pour La Recherche Economique et ses Applications,,OTHER,False,,tutelles_raw_v2
+Centre d'Analyse et de Mathématique Sociales,Centre d'Analyse et de Mathématique Sociales,,OTHER,False,,tutelles_raw_v2
+Centre d'Immunologie et des Maladies Infectieuses,Centre d'Immunologie et des Maladies Infectieuses,,OTHER,False,,tutelles_raw_v2
+Centre d'Écologie Fonctionnelle et Évolutive,Centre d'Écologie Fonctionnelle et Évolutive,,OTHER,False,,tutelles_raw_v2
+Centre de Cooperation Internationale en Recherche Agronomique pour le Developpement,Centre de Cooperation Internationale en Recherche Agronomique pour le Developpement,0755516N,EPIC,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre de Cooperation Internationale en Recherche Agronomique pour le Developpement'",participants_nontutelle;rto_tutelles
+Centre de coopération internationale en recherche agronomique pour le développement,Centre de Cooperation Internationale en Recherche Agronomique pour le Developpement,0755516N,EPIC,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre de Cooperation Internationale en Recherche Agronomique pour le Developpement'",participants_nontutelle
+Centre de Physique Théorique,Centre de Physique Théorique,,OTHER,False,,tutelles_raw_v2
+Centre de RMN à Très Hauts Champs de Lyon,Centre de RMN à Très Hauts Champs de Lyon,,OTHER,False,,tutelles_raw_v2
+Centre de Recherche Astrophysique de Lyon,Centre de Recherche Astrophysique de Lyon,,OTHER,False,,tutelles_raw_v2
+Centre de Recherche en Mathématiques de la Décision,Centre de Recherche en Mathématiques de la Décision,,OTHER,False,,tutelles_raw_v2
+Centre de Recherche en Économie et Statistique,Centre de Recherche en Économie et Statistique,,OTHER,False,,tutelles_raw_v2
+Centre de Recherches sur la Cognition Animale,Centre de Recherches sur la Cognition Animale,,OTHER,False,,tutelles_raw_v2
+Centre d’Immunologie de Marseille-Luminy,Centre d’Immunologie de Marseille-Luminy,,OTHER,False,,tutelles_raw_v2
+CENTRE HOSPITALIER UNIVERSITAIRE DE MONTPELLIER,Centre hospitalier universitaire de Montpellier,,HOSP,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre hospitalier universitaire de Montpellier'",participants_nontutelle
+Centre hospitalier universitaire de Montpellier,Centre hospitalier universitaire de Montpellier,,HOSP,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre hospitalier universitaire de Montpellier'",participants_nontutelle
+Centre international d'études supérieures en sciences agronomiques,Centre international d'études supérieures en sciences agronomiques,0342222F,AUT_ETAB,False,,participants_nontutelle
+Centre international des hautes études agronomiques méditerranéennes,Centre international des hautes études agronomiques méditerranéennes,0340133K,AUT_ETAB,False,,other_etab_tutelles
+Centre National de la Recherche Scientifique,Centre national de la recherche scientifique,0753639Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre national de la recherche scientifique'",tutelles_raw_v2
+Centre national de la recherche scientifique,Centre national de la recherche scientifique,0753639Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Centre national de la recherche scientifique'",participants_nontutelle;rto_tutelles
+Centre régional de lutte contre le cancer - Centre Léon-Bérard,Centre régional de lutte contre le cancer - Centre Léon-Bérard,,HOSP,False,,other_etab_tutelles;participants_nontutelle
+Chimie de la Matière Condensée de Paris,Chimie de la Matière Condensée de Paris,,OTHER,False,,tutelles_raw_v2
+Chimie et Biologie de la Cellule,Chimie et Biologie de la Cellule,,OTHER,False,,tutelles_raw_v2
+Château Gombert,Château Gombert,,OTHER,False,,tutelles_raw_v2
+Collège de France,Collège de France,,AUT_ETAB,False,,other_etab_tutelles;tutelles_raw_v2
+Collège de France Paris,Collège de France Paris,0753480A,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Commissariat a l'energie atomique et aux energies alternatives (CEA),Commissariat à l'énergie atomique et aux énergies alternatives,0912281K,EPIC,False,"manual_merge_group_g (CEA, S9c fix G): merged with 'Commissariat à l'énergie atomique et aux énergies alternatives' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",rto_tutelles
+Commissariat à l'Énergie Atomique et aux Énergies Alternatives,Commissariat à l'énergie atomique et aux énergies alternatives,0912281K,EPIC,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Commissariat à l'énergie atomique et aux énergies alternatives'",tutelles_raw_v2
+Commissariat à l'énergie atomique et aux énergies alternatives,Commissariat à l'énergie atomique et aux énergies alternatives,0912281K,EPIC,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Commissariat à l'énergie atomique et aux énergies alternatives'",participants_nontutelle;rto_tutelles
+Conservatoire National des Arts et Métiers Paris,Conservatoire National des Arts et Métiers Paris,0753471R,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+CryptoExperts (France),CryptoExperts (France),,OTHER,False,,tutelles_raw_v2
+Domain Therapeutics (France),Domain Therapeutics (France),,OTHER,False,,tutelles_raw_v2
+Dynamique de l'information génétique : bases fondamentales et cancer,Dynamique de l'information génétique : bases fondamentales et cancer,,OTHER,False,,tutelles_raw_v2
+Dynamique du noyau,Dynamique du noyau,,OTHER,False,,tutelles_raw_v2
+Délégation Paris 6,Délégation Paris 6,,OTHER,False,,tutelles_raw_v2
+Délégation Paris 7,Délégation Paris 7,,OTHER,False,,tutelles_raw_v2
+Département d'Informatique,Département d'Informatique,,OTHER,False,,tutelles_raw_v2
+ENSAE Paris,ENSAE Paris,,OTHER,False,,tutelles_raw_v2
+ESPCI Paris,ESPCI Paris,,OTHER,False,,tutelles_raw_v2
+EURECOM,EURECOM,,AUT_ETAB,False,,other_etab_tutelles;tutelles_raw_v2
+EUROPEAN SYNCHROTRON RADIATION FACILITY,EUROPEAN SYNCHROTRON RADIATION FACILITY,,AUT_ETAB,False,,other_etab_tutelles
+Ec Nat Sup Mécanique Microtechniques Besançon,Ec Nat Sup Mécanique Microtechniques Besançon,0250082D,AUT_ETAB,False,,other_etab_tutelles
+École nationale supérieure de mécanique et des microtechniques,Ec Nat Sup Mécanique Microtechniques Besançon,0250082D,AUT_ETAB,False,"uai_merged: RNSR UAI 0250082D shared with 'Ec Nat Sup Mécanique Microtechniques Besançon' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles
+Ecole Centrale de Lyon,Ecole Centrale de Lyon,0690187D,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Lyon'",other_etab_tutelles
+École centrale de Lyon,Ecole Centrale de Lyon,0690187D,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Lyon'",other_etab_tutelles
+Ecole Centrale de Marseille,Ecole Centrale de Marseille,0133774G,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Marseille'",other_etab_tutelles
+École centrale de Marseille,Ecole Centrale de Marseille,0133774G,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Marseille'",other_etab_tutelles
+Ecole Centrale de Nantes,Ecole Centrale de Nantes,0440100V,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Nantes'",other_etab_tutelles
+Ecole centrale de Nantes,Ecole Centrale de Nantes,0440100V,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Nantes'",other_etab_tutelles
+École Centrale de Nantes,Ecole Centrale de Nantes,0440100V,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Centrale de Nantes'",tutelles_raw_v2
+Ecole D'Ingénieurs de la Ville de Paris,Ecole D'Ingénieurs de la Ville de Paris,0750043P,AUT_ETAB,False,,other_etab_tutelles
+Ecole Française d'Extrême Orient Paris,Ecole Française d'Extrême Orient Paris,0751794T,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Ingénieurs Metz,Ecole Nationale Ingénieurs Metz,0570140T,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure Ingénieurs Caen,Ecole Nationale Supérieure Ingénieurs Caen,0141720U,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure d'Arts et Métiers,Ecole Nationale Supérieure d'Arts et Métiers,0753237L,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure de Chimie de Montpellier,Ecole Nationale Supérieure de Chimie de Montpellier,0340112M,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Montpellier'",other_etab_tutelles
+École Nationale Supérieure de Chimie de Montpellier,Ecole Nationale Supérieure de Chimie de Montpellier,0340112M,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Montpellier'",tutelles_raw_v2
+École nationale supérieure de chimie de Montpellier,Ecole Nationale Supérieure de Chimie de Montpellier,0340112M,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Montpellier'",other_etab_tutelles
+Ecole Nationale Supérieure de Chimie de Paris - Chimie ParisTech,Ecole Nationale Supérieure de Chimie de Paris - Chimie ParisTech,0753375L,AUT_ETAB,False,,other_etab_tutelles
+École nationale supérieure de chimie de Paris,Ecole Nationale Supérieure de Chimie de Paris - Chimie ParisTech,0753375L,AUT_ETAB,False,"uai_merged: RNSR UAI 0753375L shared with 'Ecole Nationale Supérieure de Chimie de Paris - Chimie ParisTech' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles
+Ecole Nationale Supérieure de Chimie de Rennes,Ecole Nationale Supérieure de Chimie de Rennes,0350077U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Rennes'",other_etab_tutelles
+École Nationale Supérieure de Chimie de Rennes,Ecole Nationale Supérieure de Chimie de Rennes,0350077U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Rennes'",tutelles_raw_v2
+École nationale supérieure de chimie de Rennes,Ecole Nationale Supérieure de Chimie de Rennes,0350077U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Supérieure de Chimie de Rennes'",other_etab_tutelles
+Ecole Nationale Supérieure des Mines d'Albi-Carmaux,Ecole Nationale Supérieure des Mines d'Albi-Carmaux,0811200P,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure des Mines d'Alès,Ecole Nationale Supérieure des Mines d'Alès,0300063F,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure des Mines de Saint-Etienne (Mines Saint-Etienne),Ecole Nationale Supérieure des Mines de Saint-Etienne (Mines Saint-Etienne),0420094Z,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux Aquitaine,Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux Aquitaine,0330203S,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Ecole Nationale Vétérinaire Maisons-Alfort,Ecole Nationale Vétérinaire Maisons-Alfort,0940608A,AUT_ETAB,False,,participants_nontutelle
+Ecole Nationale Vétérinaire Toulouse,Ecole Nationale Vétérinaire Toulouse,0310153Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Vétérinaire Toulouse'",other_etab_tutelles
+École Nationale Vétérinaire de Toulouse,Ecole Nationale Vétérinaire Toulouse,0310153Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Nationale Vétérinaire Toulouse'",tutelles_raw_v2
+Ecole Nationale des Chartes Paris,Ecole Nationale des Chartes Paris,0753478Y,AUT_ETAB,False,,other_etab_tutelles
+Ecole Nationale du Génie de l'Eau et de l'Environnement Strasbourg,Ecole Nationale du Génie de l'Eau et de l'Environnement Strasbourg,0670189S,AUT_ETAB,False,,other_etab_tutelles
+Ecole Normale Supérieure Paris,Ecole Normale Supérieure Paris,0753455Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Normale Supérieure Paris'",other_etab_tutelles;participants_nontutelle
+École normale supérieure de Paris,Ecole Normale Supérieure Paris,0753455Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Normale Supérieure Paris'",other_etab_tutelles
+Ecole Normale Supérieure de Lyon,Ecole Normale Supérieure de Lyon,0694123G,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Normale Supérieure de Lyon'",other_etab_tutelles
+École Normale Supérieure de Lyon,Ecole Normale Supérieure de Lyon,0694123G,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Normale Supérieure de Lyon'",tutelles_raw_v2
+École normale supérieure de Lyon,Ecole Normale Supérieure de Lyon,0694123G,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Normale Supérieure de Lyon'",other_etab_tutelles
+Ecole Polytechnique,Ecole Polytechnique,0911568K,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Polytechnique'",other_etab_tutelles
+École Polytechnique,Ecole Polytechnique,0911568K,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Polytechnique'",tutelles_raw_v2
+École polytechnique,Ecole Polytechnique,0911568K,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole Polytechnique'",other_etab_tutelles
+Ecole Pratique des Hautes Etudes Paris,Ecole Pratique des Hautes Etudes Paris,0753486G,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+École Pratique des Hautes Études,Ecole Pratique des Hautes Etudes Paris,0753486G,AUT_ETAB,False,"manual_merge_group_g (EPHE, S9c fix G): merged with 'Ecole Pratique des Hautes Etudes Paris' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",tutelles_raw_v2
+École pratique des hautes études,Ecole Pratique des Hautes Etudes Paris,0753486G,AUT_ETAB,False,"manual_merge_group_g (EPHE, S9c fix G): merged with 'Ecole Pratique des Hautes Etudes Paris' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",other_etab_tutelles;participants_nontutelle
+"Ecole Supérieure Ingénieurs Electrotechnique, Electronique Marne La Vallée","Ecole Supérieure Ingénieurs Electrotechnique, Electronique Marne La Vallée",,OTHER,False,,other_etab_tutelles
+Ecole Supérieure d'Electronique de l'Ouest (campus d'Angers),Ecole Supérieure d'Electronique de l'Ouest (campus d'Angers),0490075R,AUT_ETAB,False,,other_etab_tutelles
+Ecole Supérieure de Chimie Physique Electronique de Lyon,Ecole Supérieure de Chimie Physique Electronique de Lyon,0693623N,AUT_ETAB,False,,other_etab_tutelles
+Ecole Supérieure de Physique et Chimie Industrielle de la Ville de Paris,Ecole Supérieure de Physique et Chimie Industrielle de la Ville de Paris,0753429V,AUT_ETAB,False,,other_etab_tutelles
+École supérieure de physique et de chimie industrielles de la ville de Paris,Ecole Supérieure de Physique et Chimie Industrielle de la Ville de Paris,0753429V,AUT_ETAB,False,"manual_merge_group_g (ESPCI, S9c fix G): merged with 'Ecole Supérieure de Physique et Chimie Industrielle de la Ville de Paris' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",other_etab_tutelles
+Ecole d'économie et de sciences sociales quantitatives de Toulouse,Ecole d'économie et de sciences sociales quantitatives de Toulouse,0311514C,AUT_ETAB,False,,other_etab_tutelles
+Ecole des Hautes Etudes en Santé Publique,Ecole des Hautes Etudes en Santé Publique,0350095N,AUT_ETAB,False,,other_etab_tutelles
+Ecole des Hautes Etudes en Sciences Sociales Paris,Ecole des Hautes Etudes en Sciences Sociales Paris,0753742K,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+École des hautes études en sciences sociales,Ecole des Hautes Etudes en Sciences Sociales Paris,0753742K,AUT_ETAB,False,"uai_merged: RNSR UAI 0753742K shared with 'Ecole des Hautes Etudes en Sciences Sociales Paris' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles;tutelles_raw_v2
+Ecole nationale des ponts et chaussées,Ecole nationale des ponts et chaussées,0753501Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale des ponts et chaussées'",other_etab_tutelles;participants_nontutelle
+École nationale des ponts et chaussées,Ecole nationale des ponts et chaussées,0753501Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale des ponts et chaussées'",other_etab_tutelles;participants_nontutelle
+Ecole nationale supérieure Mines-Télécom Atlantique Bretagne Pays de la Loire,Ecole nationale supérieure Mines-Télécom Atlantique Bretagne Pays de la Loire,0292355C,AUT_ETAB,False,,other_etab_tutelles
+Ecole nationale supérieure de formation de l'enseignement agricole,Ecole nationale supérieure de formation de l'enseignement agricole,0310143M,AUT_ETAB,False,,other_etab_tutelles
+Ecole nationale supérieure des mines de Paris,Ecole nationale supérieure des mines de Paris,0753493P,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale supérieure des mines de Paris'",other_etab_tutelles
+École Nationale Supérieure des Mines de Paris,Ecole nationale supérieure des mines de Paris,0753493P,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale supérieure des mines de Paris'",tutelles_raw_v2
+École nationale supérieure des mines de Paris,Ecole nationale supérieure des mines de Paris,0753493P,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale supérieure des mines de Paris'",other_etab_tutelles
+Ecole nationale supérieure des techniques avancées,Ecole nationale supérieure des techniques avancées,0751878J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale supérieure des techniques avancées'",other_etab_tutelles
+École Nationale Supérieure de Techniques Avancées,Ecole nationale supérieure des techniques avancées,0751878J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole nationale supérieure des techniques avancées'",tutelles_raw_v2
+Ecole normale supérieure Paris-Saclay,Ecole normale supérieure Paris-Saclay,0912423P,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole normale supérieure Paris-Saclay'",other_etab_tutelles
+École Normale Supérieure Paris-Saclay,Ecole normale supérieure Paris-Saclay,0912423P,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Ecole normale supérieure Paris-Saclay'",tutelles_raw_v2
+Ecole normale supérieure de Rennes,Ecole normale supérieure de Rennes,0352440M,AUT_ETAB,False,,other_etab_tutelles
+"Ecologie, Société, Evolution","Ecologie, Société, Evolution",,OTHER,False,,tutelles_raw_v2
+Electrophysiology and Heart Modeling Institute,Electrophysiology and Heart Modeling Institute,,OTHER,False,,tutelles_raw_v2
+Epigénétique et Destin Cellulaire,Epigénétique et Destin Cellulaire,,OTHER,False,,tutelles_raw_v2
+Etablissement Français du Sang,Etablissement Français du Sang,0932598U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Etablissement Français du Sang'",participants_nontutelle
+Etablissement français du sang,Etablissement Français du Sang,0932598U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Etablissement Français du Sang'",participants_nontutelle
+European Genomic Institute for Diabetes,European Genomic Institute for Diabetes,,OTHER,False,,tutelles_raw_v2
+Geo-Ocean,Geo-Ocean,,OTHER,False,,tutelles_raw_v2
+Grenoble Institute of Neurosciences,Grenoble Institute of Neurosciences,,OTHER,False,,tutelles_raw_v2
+Groupe EDF,Groupe EDF,,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Groupe Thalès,Groupe Thalès,,AUT_ETAB,False,,other_etab_tutelles
+Groupe des écoles nationales d'économie et statistique,Groupe des écoles nationales d'économie et statistique,0912382V,AUT_ETAB,False,,other_etab_tutelles
+Gulliver,Gulliver,,OTHER,False,,tutelles_raw_v2
+Génétique et biologie du développement,Génétique et biologie du développement,,OTHER,False,,tutelles_raw_v2
+Géosciences Environnement Toulouse,Géosciences Environnement Toulouse,,OTHER,False,,tutelles_raw_v2
+HEC Jouy-en-Josas,HEC Jouy-en-Josas,0783054W,AUT_ETAB,False,,other_etab_tutelles
+Hospices Civils de Lyon,Hospices Civils de Lyon,0693209N,HOSP,False,,participants_nontutelle
+Hôpital Cardiologique du Haut-Lévêque,Hôpital Cardiologique du Haut-Lévêque,,HOSP,False,,tutelles_raw_v2
+Hôpital Tenon,Hôpital Tenon,,HOSP,False,,tutelles_raw_v2
+Hôpitaux Universitaires de Strasbourg,Hôpitaux Universitaires de Strasbourg,,HOSP,False,,participants_nontutelle
+IFP Energies nouvelles,IFP Energies nouvelles,0922642X,EPIC,False,,rto_tutelles
+INSEAD,INSEAD,,OTHER,False,,tutelles_raw_v2
+Ifremer,Ifremer,,OTHER,False,,tutelles_raw_v2
+Imagine -Institut des maladies génétiques,Imagine -Institut des maladies génétiques,,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Imagine -Institut des maladies génétiques'",other_etab_tutelles
+Institut des Maladies Génétiques Imagine,Imagine -Institut des maladies génétiques,,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Imagine -Institut des maladies génétiques'",tutelles_raw_v2
+Immunité et Cancer,Immunité et Cancer,,OTHER,False,,tutelles_raw_v2
+Innate Pharma (France),Innate Pharma (France),,OTHER,False,,tutelles_raw_v2
+Inserm,Inserm,,OTHER,False,,tutelles_raw_v2
+Institut Camille Jordan,Institut Camille Jordan,,OTHER,False,,tutelles_raw_v2
+Institut Curie,Institut Curie Paris,0753172R,AUT_ETAB,False,"uai_merged: RNSR UAI 0753172R shared with 'Institut Curie Paris' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles;tutelles_raw_v2
+Institut Curie Paris,Institut Curie Paris,0753172R,AUT_ETAB,False,,other_etab_tutelles
+Institut Européen de Chimie et Biologie,Institut Européen de Chimie et Biologie,,OTHER,False,,tutelles_raw_v2
+Institut Francais de Recherche pour l'Exploitation de la Mer,Institut Francais de Recherche pour l'Exploitation de la Mer,0922262J,EPIC,False,,rto_tutelles
+Institut Gustave Roussy,Institut Gustave Roussy,0941082R,AUT_ETAB,False,,other_etab_tutelles;tutelles_raw_v2
+Institut Hautes Études Scientifiques,Institut Hautes Études Scientifiques,0911012F,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Hautes Études Scientifiques'",other_etab_tutelles
+Institut des Hautes Études Scientifiques,Institut Hautes Études Scientifiques,0911012F,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Hautes Études Scientifiques'",tutelles_raw_v2
+Institut Interdisciplinaire de Neuroscience,Institut Interdisciplinaire de Neuroscience,,OTHER,False,,tutelles_raw_v2
+Institut Jacques Monod,Institut Jacques Monod,,OTHER,False,,tutelles_raw_v2
+Institut Jean Nicod,Institut Jean Nicod,,OTHER,False,,tutelles_raw_v2
+Institut Langevin,Institut Langevin,,OTHER,False,,tutelles_raw_v2
+Institut National Polytechnique Toulouse,Institut National Polytechnique Toulouse,0311381H,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National Polytechnique Toulouse'",other_etab_tutelles;participants_nontutelle
+Institut national polytechnique de Toulouse,Institut National Polytechnique Toulouse,0311381H,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National Polytechnique Toulouse'",other_etab_tutelles
+Institut National de Physique Nucléaire et de Physique des Particules,Institut National de Physique Nucléaire et de Physique des Particules,,OTHER,False,,tutelles_raw_v2
+Institut National de Recherches Archeologiques Preventives,Institut National de Recherches Archeologiques Preventives,0755502Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National de Recherches Archeologiques Preventives'",other_etab_tutelles;participants_nontutelle
+Institut national de recherches archéologiques préventives,Institut National de Recherches Archeologiques Preventives,0755502Y,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National de Recherches Archeologiques Preventives'",participants_nontutelle
+Institut National des Langues et Civilisations Orientales Paris,Institut National des Langues et Civilisations Orientales Paris,0753488J,AUT_ETAB,False,,other_etab_tutelles
+Institut National des Sciences Appliquées Lyon,Institut National des Sciences Appliquées Lyon,0690192J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Lyon'",other_etab_tutelles
+Institut national des sciences appliquées de Lyon,Institut National des Sciences Appliquées Lyon,0690192J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Lyon'",other_etab_tutelles
+Institut National des Sciences Appliquées Rennes,Institut National des Sciences Appliquées Rennes,0350097R,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Rennes'",other_etab_tutelles
+Institut national des sciences appliquées de Rennes,Institut National des Sciences Appliquées Rennes,0350097R,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Rennes'",other_etab_tutelles
+Institut National des Sciences Appliquées Rouen,Institut National des Sciences Appliquées Rouen,0760165S,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Rouen'",other_etab_tutelles
+Institut national des sciences appliquées de Rouen,Institut National des Sciences Appliquées Rouen,0760165S,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Rouen'",other_etab_tutelles
+Institut National des Sciences Appliquées Strasbourg,Institut National des Sciences Appliquées Strasbourg,0670190T,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Institut National des Sciences Appliquées Toulouse,Institut National des Sciences Appliquées Toulouse,0310152X,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Toulouse'",other_etab_tutelles;participants_nontutelle
+Institut national des sciences appliquées de Toulouse,Institut National des Sciences Appliquées Toulouse,0310152X,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut National des Sciences Appliquées Toulouse'",other_etab_tutelles
+Institut Necker Enfants Malades,Institut Necker Enfants Malades,,OTHER,False,,tutelles_raw_v2
+Institut Optique Graduate School,Institut Optique Graduate School,0910725U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Optique Graduate School'",other_etab_tutelles
+Institut d'Optique Graduate School,Institut Optique Graduate School,0910725U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Optique Graduate School'",other_etab_tutelles
+Institut Pasteur,Institut Pasteur,0755366A,OTHER,False,,other_etab_tutelles;participants_nontutelle;rto_tutelles;tutelles_raw_v2
+Institut Pasteur Lille,Institut Pasteur de Lille,0596852C,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Pasteur de Lille'",other_etab_tutelles;participants_nontutelle
+Institut Pasteur de Lille,Institut Pasteur de Lille,0596852C,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Pasteur de Lille'",other_etab_tutelles;tutelles_raw_v2
+Institut Pierre-Simon Laplace,Institut Pierre-Simon Laplace,,OTHER,False,,tutelles_raw_v2
+Institut Polytechnique Bordeaux,Institut Polytechnique Bordeaux,0333232J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Polytechnique Bordeaux'",other_etab_tutelles
+Institut Polytechnique de Bordeaux,Institut Polytechnique Bordeaux,0333232J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Polytechnique Bordeaux'",tutelles_raw_v2
+Institut polytechnique de Bordeaux,Institut Polytechnique Bordeaux,0333232J,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut Polytechnique Bordeaux'",other_etab_tutelles
+Institut Supérieur d'Electronique et du Numérique - Toulon,Institut Supérieur d'Electronique et du Numérique - Toulon,0831458J,AUT_ETAB,False,,participants_nontutelle
+Institut Supérieur de l'Aéronautique et de l'Espace,Institut Supérieur de l'Aéronautique et de l'Espace,0312760G,AUT_ETAB,False,,other_etab_tutelles
+Institut Universitaire Européen de la Mer,Institut Universitaire Européen de la Mer,,OTHER,False,,tutelles_raw_v2
+Institut Universitaire de France,Institut Universitaire de France,,OTHER,False,,tutelles_raw_v2
+Institut Universitaire des Systèmes Thermiques Industriels,Institut Universitaire des Systèmes Thermiques Industriels,,OTHER,False,,tutelles_raw_v2
+Institut d'Astrophysique de Paris,Institut d'Astrophysique de Paris,,OTHER,False,,tutelles_raw_v2
+Institut d'Etudes Politiques de Paris,Institut d'Etudes Politiques de Paris,,OTHER,False,,tutelles_raw_v2
+Institut d'études politiques d'Aix-en-Provence,Institut d'études politiques d'Aix-en-Provence,0130221V,AUT_ETAB,False,,participants_nontutelle
+Institut d'études politiques de Paris - Fondation Nationale des Sciences Politiques,Institut d'études politiques de Paris - Fondation Nationale des Sciences Politiques,0753431X,AUT_ETAB,False,,other_etab_tutelles
+Institut de Biologie Structurale,Institut de Biologie Structurale,,OTHER,False,,tutelles_raw_v2
+Institut de Biologie de l'École Normale Supérieure,Institut de Biologie de l'École Normale Supérieure,,OTHER,False,,tutelles_raw_v2
+Institut de Chimie de la Matière Condensée de Bordeaux,Institut de Chimie de la Matière Condensée de Bordeaux,,OTHER,False,,tutelles_raw_v2
+Institut de Génétique Humaine,Institut de Génétique Humaine,,OTHER,False,,tutelles_raw_v2
+Institut de Mathématiques de Jussieu-Paris Rive Gauche,Institut de Mathématiques de Jussieu-Paris Rive Gauche,,OTHER,False,,tutelles_raw_v2
+Institut de Physique du Globe Paris,Institut de Physique du Globe Paris,0753428U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut de Physique du Globe Paris'",other_etab_tutelles
+Institut de physique du globe,Institut de Physique du Globe Paris,0753428U,AUT_ETAB,False,"uai_merged: RNSR UAI 0753428U shared with 'Institut de Physique du Globe Paris' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles
+Institut de physique du globe de Paris,Institut de Physique du Globe Paris,0753428U,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut de Physique du Globe Paris'",tutelles_raw_v2
+Institut de Recherche en Cancérologie de Montpellier,Institut de Recherche en Cancérologie de Montpellier,,OTHER,False,,tutelles_raw_v2
+Institut de Recherche sur les Lois Fondamentales de l'Univers,Institut de Recherche sur les Lois Fondamentales de l'Univers,,OTHER,False,,tutelles_raw_v2
+Institut de Recherche sur les Phénomènes Hors Équilibre,Institut de Recherche sur les Phénomènes Hors Équilibre,,OTHER,False,,tutelles_raw_v2
+Institut de Recherches sur la Catalyse et l'Environnement de Lyon,Institut de Recherches sur la Catalyse et l'Environnement de Lyon,,OTHER,False,,tutelles_raw_v2
+Institut de recherche et coordination acoustique Musique,Institut de recherche et coordination acoustique Musique,,AUT_ETAB,False,,other_etab_tutelles
+Institut de Recherche pour le Développement,Institut de recherche pour le developpement,0133973Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut de recherche pour le developpement'",tutelles_raw_v2
+Institut de recherche pour le developpement,Institut de recherche pour le developpement,0133973Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut de recherche pour le developpement'",participants_nontutelle;rto_tutelles
+Institut de recherche pour le développement,Institut de recherche pour le developpement,0133973Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut de recherche pour le developpement'",participants_nontutelle;rto_tutelles
+Institut des Maladies Neurodégénératives,Institut des Maladies Neurodégénératives,,OTHER,False,,tutelles_raw_v2
+Institut des Sciences Chimiques de Rennes,Institut des Sciences Chimiques de Rennes,,OTHER,False,,tutelles_raw_v2
+Institut des Sciences Moléculaires,Institut des Sciences Moléculaires,,OTHER,False,,tutelles_raw_v2
+Institut du Cerveau,Institut du Cerveau,,OTHER,False,,tutelles_raw_v2
+Institut du Cerveau et de la Moelle épinière,Institut du Cerveau et de la Moelle épinière,,AUT_ETAB,False,,participants_nontutelle
+"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux","Institut français des sciences et technologies des transports, de l'aménagement et des réseaux",,OTHER,False,,rto_tutelles
+Institut Mines-Télécom,Institut mines télécom,0912424R,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut mines télécom'",other_etab_tutelles
+Institut mines télécom,Institut mines télécom,0912424R,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut mines télécom'",other_etab_tutelles;participants_nontutelle
+"Institut national d'enseignement supérieur pour l'agriculture, l'alimentation et l'environnement","Institut national d'enseignement supérieur pour l'agriculture, l'alimentation et l'environnement",,OTHER,False,,other_etab_tutelles;participants_nontutelle
+Institut national d'études démographiques,Institut national d'études démographiques,0755360U,EPST,False,,participants_nontutelle;rto_tutelles
+Institut national de l'information géographique et forestière,Institut national de l'information géographique et forestière,,AUT_ETAB,False,,other_etab_tutelles
+Institut national de la recherche agronomique,Institut national de la recherche agronomique,0755361V,EPST,False,,participants_nontutelle;rto_tutelles
+Institut national de la recherche en informatique et automatique,Institut national de la recherche en informatique et automatique,0780491K,EPST,False,,participants_nontutelle;rto_tutelles
+Institut national de recherche en informatique et automatique (Inria),Institut national de la recherche en informatique et automatique,0780491K,EPST,False,"manual_merge_group_g (Inria, S9c fix G): merged with 'Institut national de la recherche en informatique et automatique' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",rto_tutelles
+Institut national de recherche en informatique et en automatique,Institut national de la recherche en informatique et automatique,0780491K,EPST,False,"uai_merged: RNSR UAI 0780491K shared with 'Institut national de la recherche en informatique et automatique' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",participants_nontutelle;rto_tutelles
+Institut national de la sante et de la recherche medicale,Institut national de la sante et de la recherche medicale,0755364Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut national de la sante et de la recherche medicale'",participants_nontutelle;rto_tutelles
+Institut national de la santé et de la recherche médicale,Institut national de la sante et de la recherche medicale,0755364Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut national de la sante et de la recherche medicale'",participants_nontutelle;rto_tutelles
+['Institut National de la Santé et de la Recherche Médicale'],Institut national de la sante et de la recherche medicale,0755364Y,EPST,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut national de la sante et de la recherche medicale'",tutelles_raw_v2
+Institut national de recherche en sciences et technologies du numérique,Institut national de recherche en sciences et technologies du numérique,,OTHER,False,,tutelles_raw_v2
+"Institut national de recherche pour l'agriculture, l'alimentation et l'environnement","Institut national de recherche pour l'agriculture, l'alimentation et l'environnement",,OTHER,False,,participants_nontutelle;rto_tutelles
+Institut national des sciences appliquées Centre Val de Loire,Institut national des sciences appliquées Centre Val de Loire,0180974L,AUT_ETAB,False,,other_etab_tutelles
+Institut national polytechnique Clermont Auvergne,Institut national polytechnique Clermont Auvergne,0632033T,AUT_ETAB,False,,other_etab_tutelles
+"Institut national supérieur des sciences agronomiques, de l'alimentation et de l'environnement","Institut national supérieur des sciences agronomiques, de l'alimentation et de l'environnement",,OTHER,False,,other_etab_tutelles
+Institut national universitaire Jean-François Champollion,Institut national universitaire Jean-François Champollion,0811293R,UNIV,False,,other_etab_tutelles;participants_nontutelle
+Grenoble INP,Institut polytechnique de Grenoble,0381912X,AUT_ETAB,False,"uai_merged: RNSR UAI 0381912X shared with 'Institut polytechnique de Grenoble' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",other_etab_tutelles
+Institut polytechnique de Grenoble,Institut polytechnique de Grenoble,0381912X,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle;tutelles_raw_v2
+Institut Polytechnique de Paris,Institut polytechnique de Paris,0912403T,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut polytechnique de Paris'",tutelles_raw_v2
+Institut polytechnique de Paris,Institut polytechnique de Paris,0912403T,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Institut polytechnique de Paris'",other_etab_tutelles;participants_nontutelle
+Institute for Advanced Study in Toulouse,Institute for Advanced Study in Toulouse,,OTHER,False,,tutelles_raw_v2
+Institute for Translational Medicine and Liver Disease,Institute for Translational Medicine and Liver Disease,,OTHER,False,,tutelles_raw_v2
+JUNIA - Grande école d'ingénieur de LILLE,JUNIA - Grande école d'ingénieur de LILLE,0597165T,AUT_ETAB,False,,other_etab_tutelles
+Laboratoire Albert Fert,Laboratoire Albert Fert,,OTHER,False,,tutelles_raw_v2
+"Laboratoire Analyse, Géométrie et Applications","Laboratoire Analyse, Géométrie et Applications",,OTHER,False,,tutelles_raw_v2
+Laboratoire Jacques-Louis Lions,Laboratoire Jacques-Louis Lions,,OTHER,False,,tutelles_raw_v2
+Laboratoire Jean-Alexandre Dieudonné,Laboratoire Jean-Alexandre Dieudonné,,OTHER,False,,tutelles_raw_v2
+Laboratoire Mécanique des Solides,Laboratoire Mécanique des Solides,,OTHER,False,,tutelles_raw_v2
+Laboratoire Médiations,Laboratoire Médiations,,OTHER,False,,tutelles_raw_v2
+Laboratoire Traitement et Communication de l’Information,Laboratoire Traitement et Communication de l’Information,,OTHER,False,,tutelles_raw_v2
+Laboratoire d'Optique Appliquée,Laboratoire d'Optique Appliquée,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Chimie,Laboratoire de Chimie,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Conception et d'Intégration des Systèmes,Laboratoire de Conception et d'Intégration des Systèmes,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Linguistique Formelle,Laboratoire de Linguistique Formelle,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Mathématiques Blaise Pascal,Laboratoire de Mathématiques Blaise Pascal,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Microbiologie Fondamentale et Pathogénicité,Laboratoire de Microbiologie Fondamentale et Pathogénicité,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet,Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Neurosciences Cognitives,Laboratoire de Neurosciences Cognitives,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Photophysique et Photochimie Supramoléculaires et Macromoléculaires,Laboratoire de Photophysique et Photochimie Supramoléculaires et Macromoléculaires,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Physique Nucléaire et de Hautes Énergies,Laboratoire de Physique Nucléaire et de Hautes Énergies,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Physique Théorique et Hautes Energies,Laboratoire de Physique Théorique et Hautes Energies,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Physique des 2 Infinis Irène Joliot-Curie,Laboratoire de Physique des 2 Infinis Irène Joliot-Curie,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Recherche Vasculaire Translationnelle,Laboratoire de Recherche Vasculaire Translationnelle,,OTHER,False,,tutelles_raw_v2
+Laboratoire de Réactivité et Chimie des Solides,Laboratoire de Réactivité et Chimie des Solides,,OTHER,False,,tutelles_raw_v2
+Laboratoire des Sciences du Climat et de l'Environnement,Laboratoire des Sciences du Climat et de l'Environnement,,OTHER,False,,tutelles_raw_v2
+Laboratoire des Sciences du Numérique de Nantes,Laboratoire des Sciences du Numérique de Nantes,,OTHER,False,,tutelles_raw_v2
+Laboratoire pour l'Utilisation des Lasers Intenses,Laboratoire pour l'Utilisation des Lasers Intenses,,OTHER,False,,tutelles_raw_v2
+Laboratoire Énergies et Mécanique Théorique et Appliquée,Laboratoire Énergies et Mécanique Théorique et Appliquée,,OTHER,False,,tutelles_raw_v2
+Le Mans Université,Le Mans Université,0720916E,UNIV,False,,universities_at_start
+MINISTERE DES ARMEES ET DES ANCIENS COMBATTANTS,MINISTERE DES ARMEES ET DES ANCIENS COMBATTANTS,,AUT_ETAB,False,,participants_nontutelle
+Mines Saint-Étienne,Mines Saint-Étienne,,OTHER,False,,tutelles_raw_v2
+"Ministère de l'Agriculture, de l'Agroalimentaire et de la Forêt","Ministère de l'Agriculture, de l'Agroalimentaire et de la Forêt",,OTHER,False,,participants_nontutelle
+Ministère de la Culture et de la Communication,Ministère de la Culture et de la Communication,,OTHER,False,,other_etab_tutelles;participants_nontutelle
+Ministère de la culture,Ministère de la culture,,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Ministère de la justice,Ministère de la justice,,AUT_ETAB,False,,other_etab_tutelles
+Muséum National d'Histoire Naturelle Paris,Muséum National d'Histoire Naturelle Paris,0753494R,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+Muséum national d'Histoire naturelle,Muséum National d'Histoire Naturelle Paris,0753494R,AUT_ETAB,False,"manual_merge_group_g (MNHN, S9c fix G): merged with 'Muséum National d'Histoire Naturelle Paris' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",tutelles_raw_v2
+Muséum national d'histoire naturelle,Muséum National d'Histoire Naturelle Paris,0753494R,AUT_ETAB,False,"manual_merge_group_g (MNHN, S9c fix G): merged with 'Muséum National d'Histoire Naturelle Paris' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",other_etab_tutelles;participants_nontutelle
+Méditerranée Infection Foundation,Méditerranée Infection Foundation,,OTHER,False,,tutelles_raw_v2
+Météo France,Météo France,,AUT_ETAB,False,,other_etab_tutelles
+Nantes Université,Nantes Université,0442953W,UNIV,False,"protected: matches a dated rename/merger event in staged/university_merger_crosswalk.csv -- NOT merged, start-date semantics preserved (predecessor keeps its own name)",tutelles_raw_v2;universities_at_start
+Observatoire Midi-Pyrénées,Observatoire Midi-Pyrénées,,OTHER,False,,tutelles_raw_v2
+Observatoire Paris,Observatoire Paris,0753496T,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Observatoire Paris'",other_etab_tutelles;participants_nontutelle
+Observatoire de Paris,Observatoire Paris,0753496T,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Observatoire Paris'",other_etab_tutelles;tutelles_raw_v2
+Observatoire de la Côte d'Azur Nice,Observatoire de la Côte d'Azur Nice,0060099A,AUT_ETAB,False,,other_etab_tutelles
+Observatoire de la Côte d’Azur,Observatoire de la Côte d'Azur Nice,0060099A,AUT_ETAB,False,"manual_merge_group_g (Observatoire de la Cote d'Azur, S9c fix G): merged with 'Observatoire de la Côte d'Azur Nice' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",tutelles_raw_v2
+Observatoire de la côte d'azur,Observatoire de la Côte d'Azur Nice,0060099A,AUT_ETAB,False,"manual_merge_group_g (Observatoire de la Cote d'Azur, S9c fix G): merged with 'Observatoire de la Côte d'Azur Nice' -- same institution, a spelling/suffix/plural variant the UAI-merge pass (5b) could not catch (no uai recorded for the minority spelling, or an extra token like Paris/(CEA)/(Inria) that also changes normalize_key)",other_etab_tutelles
+Office National d'Etudes et de Recherches Aerospatiales,Office National d'Etudes et de Recherches Aerospatiales,0922641W,EPIC,False,,rto_tutelles
+Orient & Méditerranée,Orient & Méditerranée,,OTHER,False,,tutelles_raw_v2
+PHENIX laboratory,PHENIX laboratory,,OTHER,False,,tutelles_raw_v2
+Paris Cardiovascular Research Center,Paris Cardiovascular Research Center,,OTHER,False,,tutelles_raw_v2
+Paris Jourdan Sciences Economiques,Paris Jourdan Sciences Economiques,,OTHER,False,,tutelles_raw_v2
+Paris School of Economics,Paris School of Economics,,OTHER,False,,tutelles_raw_v2
+Physique des Cellules et Cancers,Physique des Cellules et Cancers,,OTHER,False,,tutelles_raw_v2
+"Représenter, Inventer la Réalité, du Romantisme au XXIe siècle","Représenter, Inventer la Réalité, du Romantisme au XXIe siècle",,OTHER,False,,tutelles_raw_v2
+Réseau sur le Stockage Electrochimique de l'énergie,Réseau sur le Stockage Electrochimique de l'énergie,,OTHER,False,,tutelles_raw_v2
+Sanofi (France),Sanofi (France),,OTHER,False,,tutelles_raw_v2
+Service Hydrographique et Océanographique de la Marine,Service hydrographique et océanographique de la Marine,,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Service hydrographique et océanographique de la Marine'",participants_nontutelle
+Service hydrographique et océanographique de la Marine,Service hydrographique et océanographique de la Marine,,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Service hydrographique et océanographique de la Marine'",participants_nontutelle
+Sorbonne Paris Cité,Sorbonne Paris Cité,,OTHER,False,,tutelles_raw_v2
+Sorbonne Université,Sorbonne Université,0755890V,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Spintronique et Technologie des Composants,Spintronique et Technologie des Composants,,OTHER,False,,tutelles_raw_v2
+SurgiMedia (France),SurgiMedia (France),,OTHER,False,,tutelles_raw_v2
+Telecom Paris,Telecom Paris,0912407X,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Telecom Paris'",participants_nontutelle
+Télécom Paris,Telecom Paris,0912407X,AUT_ETAB,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Telecom Paris'",tutelles_raw_v2
+Toulouse School of Economics,Toulouse School of Economics,,OTHER,False,,tutelles_raw_v2
+Unité de Mathématiques Pures et Appliquées,Unité de Mathématiques Pures et Appliquées,,OTHER,False,,tutelles_raw_v2
+Universite de Paris,Universite de Paris,,UNIV,False,,participants_nontutelle;universities_at_start
+Aix-Marseille Université,Université Aix-Marseille,0134009M,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Aix-Marseille'",tutelles_raw_v2
+Aix-Marseille université,Université Aix-Marseille,0134009M,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Aix-Marseille'",universities_at_start
+Université Aix-Marseille,Université Aix-Marseille,0134009M,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Aix-Marseille'",participants_nontutelle;universities_at_start
+Université Angers,Université Angers,0490970N,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Angers'",universities_at_start
+Université d'Angers,Université Angers,0490970N,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Angers'",universities_at_start
+Université Blaise Pascal,Université Blaise Pascal,0631525R,UNIV,False,,universities_at_start
+Université Bordeaux Montaigne,Université Bordeaux Montaigne,0331766R,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Bordeaux Montaigne'",universities_at_start
+Université Bordeaux-Montaigne,Université Bordeaux Montaigne,0331766R,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Bordeaux Montaigne'",universities_at_start
+Université Bourgogne - Franche-Comté,Université Bourgogne - Franche-Comté,0251985X,AUT_ETAB,False,,other_etab_tutelles
+Université Bretagne Sud,Université Bretagne Sud,0561718N,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Bretagne Sud'",participants_nontutelle;universities_at_start
+Université de Bretagne-Sud,Université Bretagne Sud,0561718N,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Bretagne Sud'",participants_nontutelle;universities_at_start
+Université Catholique de l'Ouest,Université Catholique de l'Ouest,0490811R,AUT_ETAB,False,,other_etab_tutelles
+Université Claude Bernard - Lyon 1,Université Claude Bernard Lyon 1,0691774D,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Claude Bernard Lyon 1'",universities_at_start
+Université Claude Bernard Lyon 1,Université Claude Bernard Lyon 1,0691774D,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Claude Bernard Lyon 1'",tutelles_raw_v2;universities_at_start
+Université Clermont Auvergne  (EPE),Université Clermont Auvergne  (EPE),0632084Y,UNIV,False,,universities_at_start
+Université Côte d'Azur,Université Côte d'Azur,0062205P,UNIV,False,,tutelles_raw_v2;universities_at_start
+Université Fédérale de Toulouse Midi-Pyrénées,Université Fédérale de Toulouse Midi-Pyrénées,,UNIV,False,,tutelles_raw_v2
+Université Grenoble Alpes,Université Grenoble Alpes,0383546Y,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Grenoble Alpes'",participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université de Grenoble Alpes,Université Grenoble Alpes,0383546Y,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Grenoble Alpes'",universities_at_start
+Université Gustave Eiffel,Université Gustave Eiffel,0772894C,UNIV,False,,universities_at_start
+Université Haute Alsace Mulhouse,Université Haute Alsace Mulhouse,0681166Y,UNIV,False,,participants_nontutelle;universities_at_start
+Université Jean Monnet,Université Jean Monnet,,UNIV,False,,tutelles_raw_v2
+Université Jean Monnet EPE,Université Jean Monnet EPE,0422388T,UNIV,False,"protected: 'Université Jean Monnet EPE' / 'Université Jean Monnet Saint-Étienne' is a documented dated rename/merger event in staged/university_merger_crosswalk.csv (added by the S9a fix cycle's crosswalk-coverage fix) -- NOT merged, start-date semantics preserved (S9c fix G corrected a stale 'no matching crosswalk row' note here)",participants_nontutelle;universities_at_start
+Université Jean Monnet Saint-Étienne,Université Jean Monnet Saint-Étienne,0421095M,UNIV,False,"protected: 'Université Jean Monnet Saint-Étienne' / 'Université Jean Monnet EPE' is a documented dated rename/merger event in staged/university_merger_crosswalk.csv (added by the S9a fix cycle's crosswalk-coverage fix) -- NOT merged, start-date semantics preserved (S9c fix G corrected a stale 'no matching crosswalk row' note here)",participants_nontutelle;universities_at_start
+Université Jean Moulin - Lyon 3,Université Jean Moulin Lyon 3,0692437Z,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Jean Moulin Lyon 3'",universities_at_start
+Université Jean Moulin Lyon 3,Université Jean Moulin Lyon 3,0692437Z,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Jean Moulin Lyon 3'",universities_at_start
+Université La Rochelle,Université La Rochelle,0171463Y,UNIV,False,,universities_at_start
+Université La Réunion,Université La Réunion,9740478B,UNIV,False,,participants_nontutelle
+Université Le Havre,Université Le Havre,0762762P,UNIV,False,,universities_at_start
+Université Lille 1 - Sciences technologies,Université Lille 1 - Sciences technologies,0593559Y,UNIV,False,,universities_at_start
+Université Lille 2 - Droit et Santé,Université Lille 2 - Droit et Santé,0593560Z,UNIV,False,,universities_at_start
+Université Limoges,Université Limoges,0870669E,UNIV,False,,universities_at_start
+Université Littoral-Côte d'Opale,Université Littoral-Côte d'Opale,0595964M,UNIV,False,,universities_at_start
+Université Lumière - Lyon 2,Université Lumière Lyon 2,0691775E,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Lumière Lyon 2'",universities_at_start
+Université Lumière Lyon 2,Université Lumière Lyon 2,0691775E,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Lumière Lyon 2'",universities_at_start
+Université Marie et Louis Pasteur,Université Marie et Louis Pasteur,0252044L,UNIV,False,,universities_at_start
+Université Montpellier 3 - Paul-Valéry,Université Montpellier 3 - Paul-Valéry,0341089Z,UNIV,False,,universities_at_start
+Université Nice - Sophia-Antipolis,Université Nice - Sophia-Antipolis,0060931E,UNIV,False,,universities_at_start
+Université Orléans,Université Orléans,0450855K,UNIV,False,,participants_nontutelle;universities_at_start
+Université Panthéon-Assas,Université Panthéon-Assas,0751718K,UNIV,False,,universities_at_start
+Université Panthéon-Assas Paris 2,Université Panthéon-Assas,0751718K,UNIV,False,manual override (S9b fix cycle): RNSR's own active-snapshot record for this structure lists its one tutelle twice under two spellings; mapped to the crosswalk's predecessor spelling 'Université Panthéon-Assas' -- see PHASE_C_REPORT.md 'S9b fix cycle' section for the CERSA/Montpellier detail,universities_at_start
+Université Panthéon-Sorbonne Paris 1,Université Panthéon-Sorbonne Paris 1,0751717J,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Panthéon-Sorbonne Paris 1'",universities_at_start
+Université Paris 1 - Panthéon Sorbonne,Université Panthéon-Sorbonne Paris 1,0751717J,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Panthéon-Sorbonne Paris 1'",universities_at_start
+Université Paris 1 Panthéon-Sorbonne,Université Panthéon-Sorbonne Paris 1,0751717J,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Panthéon-Sorbonne Paris 1'",tutelles_raw_v2
+Université Paris 13 - Paris Nord,Université Paris 13 - Paris Nord,0931238R,UNIV,False,"protected: this UAI group's canons reduce to a single normalize_key that is itself crosswalk-protected (a genuine dated rename/merger, not a formatting variant) -- left UNMERGED, unlike the other UAI collisions this run found (S9c fix cycle, finding G).",participants_nontutelle;universities_at_start
+Université Paris Cité,Université Paris Cité,0755976N,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université Paris Dauphine,Université Paris Dauphine,0750736T,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris Dauphine'",participants_nontutelle;universities_at_start
+Université Paris-Dauphine,Université Paris Dauphine,0750736T,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris Dauphine'",other_etab_tutelles;participants_nontutelle
+Université Paris Dauphine-PSL,Université Paris Dauphine-PSL,,UNIV,False,,tutelles_raw_v2
+Université Paris Descartes,Université Paris Descartes,0751721N,UNIV,False,,universities_at_start
+Université Paris Diderot,Université Paris Diderot,0751723R,UNIV,False,,participants_nontutelle;universities_at_start
+Université Paris Nanterre,Université Paris Nanterre,0921204J,UNIV,False,,universities_at_start
+Université Paris Nord Paris 13,Université Paris Nord Paris 13,0931238R,UNIV,False,"protected: this UAI group's canons reduce to a single normalize_key that is itself crosswalk-protected (a genuine dated rename/merger, not a formatting variant) -- left UNMERGED, unlike the other UAI collisions this run found (S9c fix cycle, finding G).",participants_nontutelle;universities_at_start
+Université Paris est Créteil Val de Marne,Université Paris est Créteil Val de Marne,0941111X,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris est Créteil Val de Marne'",universities_at_start
+Université Paris-Est Créteil Val-de-Marne,Université Paris est Créteil Val de Marne,0941111X,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris est Créteil Val de Marne'",universities_at_start
+Université Paris Sciences et Lettres,Université Paris sciences et lettres,0756036D,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris sciences et lettres'",tutelles_raw_v2
+Université Paris sciences et lettres,Université Paris sciences et lettres,0756036D,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Paris sciences et lettres'",participants_nontutelle;universities_at_start
+Université Paris-Est Marne-la-Vallée,Université Paris-Est Marne-la-Vallée,0772502B,UNIV,False,,universities_at_start
+Université Paris-Panthéon-Assas,Université Paris-Panthéon-Assas,0756305W,UNIV,False,,universities_at_start
+Université Paris-Saclay,Université Paris-Saclay,0912408Y,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université Paris-Sud,Université Paris-Sud,0911101C,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université Pau et Pays de l'Adour,Université Pau et Pays de l'Adour,0640251A,UNIV,False,,universities_at_start
+Université Paul-Valéry Montpellier,Université Paul-Valéry Montpellier,,UNIV,False,,tutelles_raw_v2
+Université Perpignan via Domitia,Université Perpignan via Domitia,0660437S,UNIV,False,,universities_at_start
+Université Picardie Jules-Verne Amiens,Université Picardie Jules-Verne Amiens,0801344B,UNIV,False,,universities_at_start
+Université Pierre et Marie Curie,Université Pierre et Marie Curie,0751722P,UNIV,False,,participants_nontutelle;universities_at_start
+Université Polytechnique Hauts de France,Université Polytechnique Hauts de France,0597132G,UNIV,False,,universities_at_start
+Université Reims Champagne-Ardenne,Université Reims Champagne-Ardenne,0511296G,UNIV,False,,universities_at_start
+Université Rennes 2,Université Rennes 2,0350937D,UNIV,False,,participants_nontutelle;universities_at_start
+Université Rouen,Université Rouen,0761904G,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Rouen'",universities_at_start
+Université de Rouen,Université Rouen,0761904G,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Rouen'",universities_at_start
+Université Savoie Chambéry,Université Savoie Chambéry,0730858L,UNIV,False,,universities_at_start
+Université de Savoie,Université Savoie Chambéry,0730858L,UNIV,False,"uai_merged: RNSR UAI 0730858L shared with 'Université Savoie Chambéry' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",universities_at_start
+Université Sorbonne Nouvelle Paris 3,Université Sorbonne Nouvelle Paris 3,0751719L,UNIV,False,,participants_nontutelle;universities_at_start
+Université Sorbonne Paris Nord,Université Sorbonne Paris Nord,,UNIV,False,,tutelles_raw_v2
+Université Strasbourg,Université Strasbourg,0673021V,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Strasbourg'",participants_nontutelle;universities_at_start
+Université de Strasbourg,Université Strasbourg,0673021V,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Strasbourg'",participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université Toulouse - Jean Jaurès,Université Toulouse - Jean Jaurès,0311383K,UNIV,False,,participants_nontutelle;universities_at_start
+Université Toulouse 1 - Capitole,Université Toulouse 1 - Capitole,0311382J,UNIV,False,"protected: 'Université Toulouse 1 - Capitole' / 'Université Toulouse Capitole EPE' is a documented dated rename/merger event in staged/university_merger_crosswalk.csv (added by the S9a fix cycle's crosswalk-coverage fix) -- NOT merged, start-date semantics preserved (S9c fix G corrected a stale 'no matching crosswalk row' note here)",participants_nontutelle;universities_at_start
+Université Toulouse Capitole EPE,Université Toulouse Capitole EPE,0313124C,UNIV,False,"protected: 'Université Toulouse Capitole EPE' / 'Université Toulouse 1 - Capitole' is a documented dated rename/merger event in staged/university_merger_crosswalk.csv (added by the S9a fix cycle's crosswalk-coverage fix) -- NOT merged, start-date semantics preserved (S9c fix G corrected a stale 'no matching crosswalk row' note here)",universities_at_start
+Université Toulouse III - Paul Sabatier,Université Toulouse III - Paul Sabatier,,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Toulouse III - Paul Sabatier'",tutelles_raw_v2
+Université de Toulouse III - Paul Sabatier,Université Toulouse III - Paul Sabatier,,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Toulouse III - Paul Sabatier'",participants_nontutelle;universities_at_start
+Université Toulouse-I-Capitole,Université Toulouse-I-Capitole,,UNIV,False,,tutelles_raw_v2
+Université Versailles Saint-Quentin-en-Yvelines,Université Versailles Saint-Quentin-en-Yvelines,0781944P,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Versailles Saint-Quentin-en-Yvelines'",universities_at_start
+Université de Versailles Saint-Quentin-en-Yvelines,Université Versailles Saint-Quentin-en-Yvelines,0781944P,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Versailles Saint-Quentin-en-Yvelines'",participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université Paris 8 - Vincennes - Saint-Denis,Université Vincennes-Saint Denis Paris 8,0931827F,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Vincennes-Saint Denis Paris 8'",universities_at_start
+Université Vincennes-Saint Denis Paris 8,Université Vincennes-Saint Denis Paris 8,0931827F,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université Vincennes-Saint Denis Paris 8'",universities_at_start
+Université d'Evry-Val d'Essonne,Université d'Evry-Val d'Essonne,0911975C,UNIV,False,,participants_nontutelle;universities_at_start
+Université de Bordeaux,Université de Bordeaux,0333298F,UNIV,False,,participants_nontutelle;tutelles_raw_v2;universities_at_start
+Université de Bourgogne,Université de Bourgogne,0211237F,UNIV,False,,universities_at_start
+Université de Bretagne Occidentale,Université de Bretagne Occidentale,0290346U,UNIV,False,,tutelles_raw_v2;universities_at_start
+Université de Caen Normandie,Université de Caen Normandie,0141408E,UNIV,False,,universities_at_start
+Université de Franche-Comté,Université de Franche-Comté,0251215K,UNIV,False,,universities_at_start
+Université de Lille,Université de Lille,,UNIV,False,,tutelles_raw_v2
+Université de Lille (EPE),Université de Lille (EPE),0597239Y,UNIV,False,,universities_at_start
+Université de Lorraine,Université de Lorraine,0542493S,UNIV,False,,universities_at_start
+Université de Montpellier,Université de Montpellier (EPE),0342490X,UNIV,False,manual override (S9b fix cycle): RNSR's own active-snapshot record for this structure lists its one tutelle twice under two spellings; mapped to the crosswalk's predecessor spelling 'Université de Montpellier (EPE)' -- see PHASE_C_REPORT.md 'S9b fix cycle' section for the CERSA/Montpellier detail,tutelles_raw_v2;universities_at_start
+Université de Montpellier (EPE),Université de Montpellier (EPE),0342490X,UNIV,False,,universities_at_start
+Université de Nantes,Université de Nantes,0440984F,UNIV,False,"protected: matches a dated rename/merger event in staged/university_merger_crosswalk.csv -- NOT merged, start-date semantics preserved (predecessor keeps its own name)",universities_at_start
+Université de Picardie Jules Verne,Université de Picardie Jules Verne,,UNIV,False,,tutelles_raw_v2
+Université de Poitiers,Université de Poitiers,0860856N,UNIV,False,,universities_at_start
+Université de Rennes,Université de Rennes,,UNIV,False,,tutelles_raw_v2
+Université de Rennes (EPE),Université de Rennes (EPE),0353074B,UNIV,False,,universities_at_start
+Université de Rennes 1,Université de Rennes 1,0350936C,UNIV,False,,universities_at_start
+Université de Technologie de Belfort-Montbéliard,Université de Technologie de Belfort-Montbéliard,0900424X,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université de Technologie de Belfort-Montbéliard'",universities_at_start
+Université de technologie de Belfort-Montbéliard,Université de Technologie de Belfort-Montbéliard,0900424X,UNIV,False,"merged formatting/spelling variant of the same institution (accent/case/hyphen/word-order split, verified not crosswalk-protected); canonical spelling 'Université de Technologie de Belfort-Montbéliard'",universities_at_start
+Université de Technologie de Compiègne,Université de Technologie de Compiègne,0601223D,UNIV,False,,universities_at_start
+Université de Toulon,Université de Toulon,0830766G,UNIV,False,,tutelles_raw_v2;universities_at_start
+Université de Toulouse EPE,Université de Toulouse EPE,0313218E,UNIV,False,,universities_at_start
+Université François-Rabelais,Université de Tours,0370800U,UNIV,False,"uai_merged: RNSR UAI 0370800U shared with 'Université de Tours' -- same legal entity, active-vs-historical/formatting spelling variant only; verified not a crosswalk-protected dated identity split (S9a fix cycle finding 3)",universities_at_start
+Université de Tours,Université de Tours,0370800U,UNIV,False,,universities_at_start
+Université de Valenciennes et du Hainaut-Cambrésis,Université de Valenciennes et du Hainaut-Cambrésis,0593279U,UNIV,False,,universities_at_start
+Université de la Guyane,Université de la Guyane,9730429D,UNIV,False,,participants_nontutelle
+Université des Antilles,Université des Antilles,9710585J,UNIV,False,,universities_at_start
+VetAgro Sup,VetAgro Sup,0690193K,AUT_ETAB,False,,other_etab_tutelles;participants_nontutelle
+['CNRS' 'Collège de France' 'Inserm'],['CNRS' 'Collège de France' 'Inserm'],,OTHER,False,,tutelles_raw_v2
+['CNRS' 'EHESS'],['CNRS' 'EHESS'],,OTHER,False,,tutelles_raw_v2
+['CNRS' 'EPHE-PSL' 'INALCO' 'Sorbonne Nouvelle'],['CNRS' 'EPHE-PSL' 'INALCO' 'Sorbonne Nouvelle'],,OTHER,False,,tutelles_raw_v2
+['CNRS' 'Observatoire de Paris - PSL' 'Sorbonne Université' 'LNE'],['CNRS' 'Observatoire de Paris - PSL' 'Sorbonne Université' 'LNE'],,OTHER,False,,tutelles_raw_v2
+['CNRS' 'Sciences Po Paris'],['CNRS' 'Sciences Po Paris'],,OTHER,False,,tutelles_raw_v2
+['CNRS' 'Sorbonne Université'],['CNRS' 'Sorbonne Université'],,OTHER,False,,tutelles_raw_v2
+['INSERM' 'Sorbonne Université' 'CNRS'],['INSERM' 'Sorbonne Université' 'CNRS'],,OTHER,False,,tutelles_raw_v2
+['INSERM' 'Université Paris Cité'],['INSERM' 'Université Paris Cité'],,OTHER,False,,tutelles_raw_v2
+['Inserm' 'Université Claude Bernard Lyon 1'],['Inserm' 'Université Claude Bernard Lyon 1'],,OTHER,False,,tutelles_raw_v2
+"['Institut national de la santé et de la recherche médicale (INSERM)'
+ 'Université Grenoble Alpes']","['Institut national de la santé et de la recherche médicale (INSERM)'
+ 'Université Grenoble Alpes']",,OTHER,False,,tutelles_raw_v2
+[],[],,OTHER,False,,tutelles_raw_v2
+École Centrale de Lille,École Centrale de Lille,,OTHER,False,,tutelles_raw_v2
+École Française d'Extrême-Orient,École Française d'Extrême-Orient,,OTHER,False,,tutelles_raw_v2
+École Normale Supérieure - PSL,École Normale Supérieure - PSL,,OTHER,False,,tutelles_raw_v2
+École Supérieure des Sciences Économiques et Commerciales,École Supérieure des Sciences Économiques et Commerciales,,OTHER,False,,tutelles_raw_v2
+École nationale de formation agronomique de Toulouse Auzeville,École nationale de formation agronomique de Toulouse Auzeville,,OTHER,False,,other_etab_tutelles;participants_nontutelle
+École nationale supérieure de chimie de Lille,École nationale supérieure de chimie de Lille,0590311T,AUT_ETAB,False,,other_etab_tutelles
+École nationale supérieure des techniques industrielles et des mines de Nantes,École nationale supérieure des techniques industrielles et des mines de Nantes,,OTHER,False,,other_etab_tutelles

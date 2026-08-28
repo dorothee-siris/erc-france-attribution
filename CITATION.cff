@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset or pipeline, please cite it as below."
+title: "ERC France Attribution: Lab, University and Region Attribution of French ERC Grants"
+type: dataset
+authors:
+  - name: "SIRIS Academic"
+abstract: >
+  A reproducible pipeline and dataset attributing every French-hosted ERC grant (2016-2026
+  start-date cohort) to the performing laboratory at grant start, then to its tutelle
+  universities, city and region — defeating the RTO-headquarters effect by which CORDIS books
+  most French ERC grants to national research organisations (CNRS, INSERM, CEA, Inria, INRAE)
+  rather than to the university-affiliated lab that actually performed the work.
+license: MIT
+version: "1.5.0"
+date-released: "2026-08-28"
+repository-code: "https://github.com/dorothee-siris/erc-france-attribution"
+keywords:
+  - ERC
+  - European Research Council
+  - France
+  - research funding attribution
+  - RNSR
+  - bibliometrics
+  - regional portfolio mapping

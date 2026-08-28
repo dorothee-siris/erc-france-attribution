@@ -1,0 +1,41 @@
+# config.yaml — single source of truth for the ERC->France attribution pipeline
+snapshot_date: "2026-07-23"   # set once per run; drives data/raw/<source>/<date>/ — do NOT use a live clock
+
+# PERIMETER (Task 1 gate decision, 2026-07-23):
+# Spine = official French MESR dataset (fr-esr-erc-projects-entities), bounded on CALL YEAR.
+# start_year is ADDED as a second field via a CORDIS join (kept alongside call_year; use decided later).
+call_year_min: 2016
+call_year_max: 2026
+erc_schemes: [STG, COG, ADG, SYG, POC]        # destination_code values kept (LVG->Autre/NC dropped)
+france_country_code: "FRA"                     # country_code_mapping value for French-hosted rows
+host_roles: [PI, CO-PI]                        # role_entity values that mark a (French) host of the grant
+
+# euprojectsdb: NOT used as spine — the coverage probe showed it holds Horizon Europe only (no H2020).
+# Retained here only as an optional HE cross-check if ever needed.
+euprojectsdb:
+  funding_scheme_prefix_he: "HORIZON-ERC"
+
+sources:
+  fr_esr_erc: "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-erc-projects-entities/exports/json"
+  rnsr_csv: "https://www.data.gouv.fr/api/1/datasets/r/0629933f-f40d-4a42-b851-b6a15cebea00"
+  rnsr_json: "https://www.data.gouv.fr/api/1/datasets/r/5aa9323d-99c6-4bb6-b648-009b0a207f7b"
+  cordis_he_zip: "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip"
+  cordis_h2020_zip: "https://cordis.europa.eu/data/cordis-h2020projects-csv.zip"
+  cordis_h2020_erc_pi: "https://cordis.europa.eu/data/cordis-h2020-erc-pi.xlsx"   # PI first/last name, H2020 only
+  # commune->EPCI/metropole crosswalk (INSEE "Composition communale des EPCI" via data.gouv);
+  # exact resource id verified in Task 8 before download:
+  epci_communes: "https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/"
+
+scanr:
+  es_base_public: "https://scanr.enseignementsup-recherche.gouv.fr/api"
+  es_base_direct: "https://cluster-production.elasticsearch.dataesr.ovh"
+  persons_index: "scanr-persons"
+  projects_index: "scanr-projects"
+  organizations_index: "scanr-organizations"
+
+resolution:
+  sample_size: 30
+  llm_model_first: "sonnet"
+  llm_effort_first: "low"
+  llm_model_escalate: "opus"
+  confidence_threshold_accept: 0.7   # below this, escalate/flag

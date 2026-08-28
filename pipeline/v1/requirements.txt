@@ -1,0 +1,8 @@
+pandas
+pyarrow
+psycopg2-binary
+requests
+PyYAML
+python-dotenv
+openpyxl
+pytest

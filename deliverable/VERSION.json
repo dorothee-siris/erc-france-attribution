@@ -1,0 +1,113 @@
+{
+  "version": "1.5.0",
+  "generated": "2026-08-28",
+  "source_snapshots": {
+    "dashboard": "2026-07-24",
+    "cordis": "2026-07-24",
+    "rnsr": "2026-07-24"
+  },
+  "run_id": "20260827T142619Z_integration",
+  "components_total": 1562,
+  "components_auto_accepted_AB": 1222,
+  "components_grade_A": 457,
+  "components_grade_B": 765,
+  "components_grade_C": 340,
+  "components_abstention_non_french_at_start": 15,
+  "components_unresolved_parked": 6,
+  "french_component_amount_total_eur": 2704632271.9300003,
+  "french_component_amount_attributed_eur": 2678147991.3100004,
+  "v2_relink": {
+    "file_present": true,
+    "high": 73,
+    "medium": 15,
+    "needs_review": 39,
+    "foreign_site": 1,
+    "conflicts": 25,
+    "hq_guard_blocked": 1
+  },
+  "phase_e": {
+    "file_present": true,
+    "A": 92,
+    "B_resolved": 118,
+    "B_non_french": 1,
+    "B_unresolved": 3
+  },
+  "headline_tiers": {
+    "located": {
+      "n": 1535,
+      "eur": "2656094861.56"
+    },
+    "lab_only": {
+      "n": 6,
+      "eur": "13152676.50"
+    },
+    "non_french": {
+      "n": 15,
+      "eur": "26484280.62"
+    },
+    "unresolved_parked": {
+      "n": 6,
+      "eur": "8900453.25"
+    },
+    "lab_only_zero_attribution_subset": {
+      "n": 5,
+      "eur": "10678886.50"
+    }
+  },
+  "synergy_unclaimed_lines": {
+    "count": 11,
+    "eur": "6226676.17"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-27",
+      "summary": "First S8 master assembly: v2 auto-accepted (1,222, grades A/B) + Phase C staged (207, grade C) + parked placeholder (133, no grade) = 1,562 rows."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-27",
+      "summary": "S9b fix cycle (PATCH): institution-name canonicalization of universities_at_start (101 rows touched, 99->84 distinct universities); no components added/removed, no grade/resolution-status change."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-28",
+      "summary": "Phase D integration (MINOR): the 133-row parked placeholder (set C) replaced with staged/phase_d/phase_d_staged.csv's researched outcomes -- 120 now resolve (resolution_status=resolved_phase_d, grade C), 7 are documented non_french_at_start abstentions, 6 stay unresolved_parked with a real researched park_reason. evidence_grade is now non-null on all 1,562 rows (every component has been researched at least once by some route). 5 components' french_component_amount re-derived from CORDIS's own organisation split (AMOUNT RULE) via deliverable/overrides.csv, moving the master total EUR 4,474,809.00 below the frozen v2-spine total (documented, not forced to reconcile -- see DATA_DICTIONARY.md). 5 salvaged-verified components re-checked against fresh web evidence (flag salvage_rechecked_20260828, all confirmed/qualified, no field values changed)."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-08-28",
+      "summary": "S9a hostile-review fix cycle (MINOR): (1) Synergy cordis_exact_host line-sharing de-duplicated via equal split (amount_method=cordis_line_split_equal, flag same_line_split) -- 0 grants over ceiling after the fix; (2) institution-name canonicalization extended from universities_at_start to all 4 tutelle-shaped columns; (3) 12 UAI collisions merged in institution_name_canonical.csv (Tours, Savoie, Paris 13 + 9 more); (4) 4 missing university-identity crosswalk events added (Jean Monnet EPE, Brest EPE, Toulouse Capitole EPE, Avignon Universite); (5) non_french_at_start rows (14, incl. 852448:0 newly reclassified via the relink) blanked on all 17 attribution columns and excluded from region_funding.csv/university_funding.csv/the headline attributed-EUR figure; (6) 7 rows with a malformed/distant-year RNSR record recovered via deliverable/overrides.csv; (7) match_mode/tutelle_source='v2_inherited' labelled on remaining unaudited grade A/B rows; (8) the concurrently-produced RNSR re-link wired in (v2_relink_overrides.csv/v2_relink_conflicts.csv), tiered by confidence."
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-08-28",
+      "summary": "S9c hostile-review fix cycle (MINOR): (A) CRIT 101141890:0 (Toulouse School of Economics) -- rejected fix-6's stale-RNSR (1995-2006 coverage, 18y gap) tutelle injection AND the rnsr_id itself, reverting to null (disposition linked_no_rnsr_id, flag rnsr_id_rejected_stale_record); (B) reverse-anachronism forward-roll added (a stale predecessor name -- UPMC, Paris Diderot/Descartes, Paris-Sud, Blaise Pascal, Universite de Nantes -- now rolls forward to its successor when start_date is at/after the crosswalk event, flag tutelle_successor_applied); (C) Synergy split REWRITTEN: each component matched to its OWN starting_host's French CORDIS line by host_pic exact, split only among non-excluded co-claimants, unresolved/non-French components excluded from the split denominator (staged/synergy_unclaimed_lines.csv reports lines no component claims); (D) 101069446:0 Prosecco reverted to 201222120W (sigle PROSECCO); an HQ guard added to the v2 relink (never target Inria/CEA-Direction-des-Energies-shaped records, never replace a team-level link whose own sigle is a token of lab_name); (E) disposition=='linked' now implies rnsr_id notnull everywhere (65 rows fixed: 852448:0 -> no_french_attribution, 64 needs_review/conflict rows -> linked_no_rnsr_id); conflict rows' match_mode/tutelle_source relabelled v2_relink_unresolved (was wrongly v2_inherited); (F) headline tiered into located/lab-only/non-French/unresolved-parked in FINAL_NUMBERS.md/README.md, computed with Decimal; (G) CEA/Inria/EPHE/ESPCI/MNHN/Observatoire-de-la-Cote-d'Azur canonicalization gaps closed, Paris-13 (0931238R) crosswalk-protected pair un-merged from the UAI-merge pass; (H) hygiene -- city casing, 2 comma-split tutelle recoveries (IRISA/ESYCOM), region-from-city gazetteer (7 rows), rnsr_structure_closed_before_start flag (documentation only); (I) 3 crosswalk event dates corrected (Brest EPE, Toulouse Capitole EPE, Avignon Universite) against Legifrance, sourced in staged/crosswalk_verification_round2.csv."
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-08-28",
+      "summary": "S9d final-verification fix pass (PATCH): 4 non-blocking nits from reports/S9d_final_verification.md's 'Exact remaining fixes' list -- (a) the 3 pre-existing v2-inherited Inria-HQ rnsr_id links (788065:0, 101097259:0, 101141721:0, rnsr_id=196724818Z) now documented by name in README.md/DATA_DICTIONARY.md Limitations, alongside the no_rnsr_id_is_organisation_headquarters validate_master.py check that already surfaced them dynamically (docs only, no data change); (b) the crosswalk backward-substitution sweep (previously universities_at_start-only) now also applied to participants_nontutelle -- cosmetic, no money moves; (c) 2 integration_ledger.csv rows (101044319:0/match_mode, 101118811:1/universities_at_start) relabelled reason s9a_fix -> s9c_fix for provenance accuracy (values unchanged -- their correctness depends on the S9c cycle's crosswalk round-2 date correction, not the code path that writes them); (d) city hygiene on the CEDEX/postal-code/street-address class: CEDEX codes and postal-code remnants stripped, proper title-case + a hand-vetted multi-word-commune dictionary applied for unambiguous cases (Saint-Martin-d'Heres, Villeneuve-d'Ascq, Aix-en-Provence, etc.), a NEW city_raw column preserves the original string on every row, anything too ambiguous to resolve safely is left untouched and flagged city_unnormalized, region/region_source asserted unchanged throughout."
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-08-28",
+      "summary": "Phase E integration (MINOR): the 216 lab-only rows (resolved, region==null) get region/rnsr_id/tutelle data filled in via scripts/c15_phase_e_stage.py (staged/phase_e/phase_e_staged.csv) + this file's new apply_phase_e_staged() hook -- E1 (tier A, deterministic local evidence: v2/HAL/OpenAlex address corroboration + a guarded RNSR re-match, 94/216 rows) plus E2 (tier B, web research over the remaining 122-row queue: 114 resolved -- 51 with a new guarded rnsr_id + derived tutelles-at-start, the rest region-only -- 1 non_french_at_start, 3 unresolved-and-flagged, 4 still awaiting a web result). No row removed/added, no amount touched; disposition recomputed 'linked' wherever a new rnsr_id landed; the 3 now-stale pre-Phase-E placeholder flags (no_rnsr_id/no_region/tutelles_unbucketed) stripped on every row Phase E actually filled, never left self-contradicting the row's own new field values."
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-08-28",
+      "summary": "Phase E late-rows completion (PATCH): the 4 phase_e_web_queue.csv rows skipped by adjacent E2 batches (101097791:0, 716515:0, 725149:0, 885394:0) resolved via staged/phase_e/web_results/*.json + a c15_phase_e_stage.py rerun -- 3 gain a brand-new guarded rnsr_id and move into located (101097791:0 Institut Pasteur/INSERM U1225 Unite de Pathogenese des infections vasculaires, Paris; 716515:0 Laboratoire Geosciences Ocean UMR6538, Plouzane; 725149:0 INSERM U1172 predecessor Centre de Recherche Jean-Pierre Aubert, Lille); 1 (885394:0, Japanese-French Laboratory for Informatics / JFLI) keeps its pre-existing rnsr_id and stays lab_only since its performing site (Tokyo, Japan) has no French region to assign -- honestly left unresolved for region rather than guessed. Same already-running Phase E mechanism completing its own residual queue, not a new one; no other row touched, no amount changed."
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-08-28",
+      "summary": "S9e fix pass (PATCH), reports/S9e_phase_e_verification.md: (1) MAJ city_raw evidence-preservation regression fixed -- city_raw is now seeded right after apply_v2_relink, BEFORE apply_phase_e_staged (previously seeded much later, AFTER Phase E had already overwritten city on 23 rows, silently destroying their original raw address text); the 23 affected rows regain their true pre-Phase-E city_raw, ledgered reason=s9e_fix; the reseed inside fix_city_hygiene_v131 is now fill-only (never overwrites an existing city_raw) as a second, independent safety net. (2) MAJ national-RTO-HQ contamination on the S1 (v2-evidence) channel fixed: the S1 v2_fc_postal region vote is now screened against the same HQ guard OpenAlex already uses, closing 833350:0 (Laboratoire de Physique des Solides -- was wrongly Gif-sur-Yvette via CEA 'Direction des Energies' 202024262P contamination combining with an independently-imprecise OpenAlex vote to fake a 2-of-3 majority; now correctly Orsay via a new weak-mode-corroboration rule that trusts the guarded rnsr_id's own postal once >=1 independent family vote agrees on its region); a new guarded rung (e1_step4_rnsr_rematch.py rung 2.5, 'v2_prior_link_sigle_confirmed') re-verifies v2's own pre-existing rnsr_id via an exact-token sigle match, closing 772178:0 (Micalis Institute -- was Gif-sur-Yvette via a noisy OpenAlex institution-geo vote (Universite Paris-Saclay's registered address), now correctly Jouy-en-Josas via the gold, exact-sigle MICALIS RNSR match 201119643H that had sat unused in s1_local_hits.csv). All other Phase E rows re-verified clean (scanned the 13 rows carrying an HQ-shaped v2_fc_rnsr_id; only these 2 were actually wrong). (3) MIN 714472:0 (the PI/Institut Pasteur) flagged present_only_evidence, confidence downgraded medium->low (location kept, very likely still correct); 679408:0's disputed other_etab_tutelles (known wrong by this project's own prior research, per the logged conflict) caveated in README.md/DATA_DICTIONARY.md Limitations. PATCH per UPDATE_PLAYBOOK.md Stage 9's semver rule: no row added/removed. Headline tiers DO move within Phase E's own set as a direct consequence of fix (2): closing the HQ-contamination class also revealed 2 rows (677368:0, 101142062:0) whose prior `located` status rested on that SAME invalid vote with no other independent corroboration once it is excluded -- both honestly revert to `lab_only` rather than keep a lucky-but-unjustified answer. Net: `located` 1,537 -> 1,535 (-2), `lab_only` 4 -> 6 (+2); `non_french`=15 and `unresolved_parked`=6 unchanged (Phase E touches neither). No amount/grant/resolution_status change -- this is why the pass still counts as PATCH, not MINOR, under Stage 9's rule (which keys the MINOR/PATCH line off resolution_status and amount changes, not the located/lab_only sub-tiering that sits entirely inside resolution_status='resolved')."
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-28",
+      "summary": "Residuals v1.5.0 (MINOR: rnsr_id/city/region change on 3 rows, disposition change on 1), staged/RESIDUALS_CHECKPOINT.md: STEP 0 verified v1.4.2's S9e fix pass landed correctly (validate_master.py ran clean, 26/27 PASS as documented) and fixed one real doc-drift bug found along the way -- the 1.4.2 changelog text above wrongly claimed 'headline tiers unchanged' when they actually moved 1,537->1,535 located (FINAL_NUMBERS.md already had it right; only this file's own text had drifted). STEP 1: fixed city hygiene for the 19 rows still flagged city_unnormalized (the task's own cited '43' is a stale v1.3.1-era count -- Phase E's city/code_postal overwrite incidentally resolved 24 of them as a side effect since v1.4.0) -- a real bug (a bare postal code like '75014' never reached POSTAL_CODE_ONLY's own already-correct answer because the leading-strip regex required a trailing space no bare code has) plus a new mid-string-postal-code fallback (MIDSTRING_COMMUNE dict, exact-match only, gated by a new region-consistency guard against city_gazetteer.py, extended with 5 new communes) for addresses whose real postal code sits mid-string behind an institution/street prefix. 14 of the 19 normalized (591 total, up from 577); 5 correctly remain flagged (4 generic-mailing-address rows where the region guard correctly blocked an assignment that would have contradicted the row's own region, 1 genuine UK address). STEP 2: the 3 residual v2-inherited rnsr_id==196724818Z (Inria's own top-level HQ record) links, documented but never fixed since v1.3.1 -- 788065:0 (FUNGRAPH) and 101141721:0 (NERPHYS), both PI the PI, relinked to 201521163T (GRAPHDECO, Inria Sophia Antipolis; guarded on an EXACT responsable-name match in active.parquet, not just the usual sigle/city corroboration -- city/code_postal/region updated to the new unit's real location, Provence-Alpes-Cote d'Azur); 101097259:0 ('explorer', PI the PI) has no clean guarded match after exhaustively checking every plausible Inria+ENPC/Ecole-Polytechnique joint-unit candidate and found none -- correctly nulled (rnsr_id/universities_at_start null, disposition linked_no_rnsr_id, flag hq_link_removed; city/region left unchanged since region_source is v2_pipeline_geocode, never rnsr_postal, so it was never HQ-derived to begin with). validate_master.py's own no_rnsr_id_is_organisation_headquarters check now reports 0 documented residual rows for the first time since v1.3.1. STEP 3: independently re-verified the 2 canonical-name crosswalk-protected pairs (Jean Monnet EPE/Saint-Etienne, Toulouse Capitole EPE/Toulouse 1) against RNSR's own uai_des_tutelles field (historical.parquet + active.parquet, not just the canonical table's own precomputed uai column) -- UAIs genuinely differ for both pairs (a real administrative identity change tied to each EPE conversion) AND a dated EPE-creation rename event exists in the crosswalk for both -- confirms the existing PROTECT/do-not-merge state was already correct; 0 code change, 0 rows merged. STEP 4: re-verified all 26 confidence=check crosswalk rows against historical.parquet (1990-2017, first/last annee per exact tutelle-name text) and active.parquet (current spelling) -- 0 contradictions found; every predecessor persists uninterrupted to historical's own 2017 ceiling with no early gap, reproducing exactly the Avignon-2018-11 inconclusive pattern the task itself cites as the standard for keeping confidence=check, on all 26 rows including the 3 that fall inside historical's actual 1990-2017 coverage window (Grenoble Alpes 2016-01, Clermont Auvergne 2017-01, Le Mans 2017-09) -- 0 dates changed, 0 rows' confidence upgraded. MINOR (not PATCH) per UPDATE_PLAYBOOK.md Stage 9's semver rule: STEP 2 changes rnsr_id/region/disposition on real rows (an identity/attribution-affecting change), even though the located/lab_only headline tiers themselves do not move (both STEP-2 rows were already in the 'located' tier before and after, since region/rnsr_id already existed either way -- only WHICH institution/region they credit changes)."
+    }
+  ]
+}

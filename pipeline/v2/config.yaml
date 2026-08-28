@@ -1,0 +1,33 @@
+snapshot_date: "2026-07-24"
+
+perimeter:
+  start_inclusive: "2016-01-01"
+  end_exclusive: "2027-01-01"
+
+sources:
+  dashboard: "../bulk_data_erc_dashboard.xlsx"
+  cordis_horizon: "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip"
+  cordis_h2020: "https://cordis.europa.eu/data/cordis-h2020projects-csv.zip"
+  rnsr_active_dataset: "fr-esr-structures-recherche-publiques-actives"
+  rnsr_historical_dataset: "fr-esr-repertoire-national-structures-recherche-historique-annuel"
+  hal_search: "https://api.archives-ouvertes.fr/search/"
+  hal_structure: "https://api.archives-ouvertes.fr/ref/structure/"
+  openalex_works: "https://api.openalex.org/works"
+
+resolution:
+  award_year_before: 1
+  award_year_after: 2
+  hal_sleep_seconds: 0.10
+  openalex_sleep_seconds: 0.10
+  auto_accept_grades: [A, B]
+
+assisted:
+  low_effort_max_cases: 10
+  medium_effort_max_cases: 5
+  max_searches_per_case: 2
+  max_sources_per_case: 3
+  max_source_characters: 8000
+  warning_tokens: 25000
+  hard_tokens: 40000
+  high_effort_enabled: false
+  parallel_agents: 0
